@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25N512GVEIG
+D 512Mb Serial NAND Flash Memory with uniform 2KB+64B page size and set Buffer Read Mode as default
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25N512GVEIG&type=datasheet
+$ENDCMP
+#
+#End Doc Library

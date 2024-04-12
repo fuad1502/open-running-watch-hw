@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LSF0204GU12X
+D LSF0204 - 4-bit bidirectional multi-voltage level translator; open-drain; push-pull@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/LSF0204.pdf
+$ENDCMP
+#
+#End Doc Library

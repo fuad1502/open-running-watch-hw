@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ST1S15J18R
+D 500 mA, 6 MHz synchronous step-down converter
+K
+F https://www.st.com/resource/en/datasheet/st1s15.pdf
+$ENDCMP
+#
+#End Doc Library

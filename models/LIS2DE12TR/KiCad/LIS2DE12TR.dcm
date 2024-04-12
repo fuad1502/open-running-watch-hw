@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LIS2DE12TR
+D Accelerometer Triple +/-2g/+/-4g/+/-8g/+/-16g 2.5V 12-Pin LGA T/R
+K
+F https://www.mouser.co.uk/datasheet/2/389/dm00153214-1798409.pdf
+$ENDCMP
+#
+#End Doc Library

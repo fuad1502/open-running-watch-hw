@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC817-25-QVL
+D Bipolar (BJT) Transistor NPN 45 V 500 mA 100MHz 250 mW Surface Mount TO-236AB
+K
+F https://assets.nexperia.com/documents/data-sheet/BC817-Q_SER.pdf
+$ENDCMP
+#
+#End Doc Library

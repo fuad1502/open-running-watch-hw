@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ECS-320-12-37B2-7KM-TR
+#/15479073/106042/2.50/4/3/Crystal or Oscillator
+DEF ECS-320-12-37B2-7KM-TR Y 0 30 Y Y 1 F N
+F0 "Y" 1150 300 50 H V L CNN
+F1 "ECS-320-12-37B2-7KM-TR" 1150 200 50 H V L CNN
+F2 "ECS3201237B27KMTR" 1150 100 50 H I L CNN
+F3 "https://ecsxtal.com/store/pdf/ECX-1637B2.pdf" 1150 0 50 H I L CNN
+F4 "Crystals 32.000 MHz 12 pF +/-7 +/-10 -20 +70 C +/-2 ppm Max. ESR = 50" 1150 -100 50 H I L CNN "Description"
+F5 "0.5" 1150 -200 50 H I L CNN "Height"
+F6 "520-320-12-37B27KMTR" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ECS/ECS-320-12-37B2-7KM-TR?qs=QNEnbhJQKvahKyi369P0oQ%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ECS" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ECS-320-12-37B2-7KM-TR" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN/OUT 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1300 -100 200 L 50 50 0 0 P
+X OUT/IN 3 1300 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

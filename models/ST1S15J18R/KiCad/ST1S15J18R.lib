@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ST1S15J18R
+#/845733/106042/2.50/6/2/Integrated Circuit
+DEF ST1S15J18R IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ST1S15J18R" 950 200 50 H V L CNN
+F2 "BGA6C40P2X3_94X119X60" 950 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/st1s15.pdf" 950 0 50 H I L CNN
+F4 "500 mA, 6 MHz synchronous step-down converter" 950 -100 50 H I L CNN "Description"
+F5 "0.6" 950 -200 50 H I L CNN "Height"
+F6 "511-ST1S15J18R" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1S15J18R?qs=19rwF8CI%252BwlFaXPtIIpmJQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ST1S15J18R" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X MODE A1 0 0 200 R 50 50 0 0 P
+X VIN A2 0 -100 200 R 50 50 0 0 P
+X SW B1 0 -200 200 R 50 50 0 0 P
+X EN B2 1100 0 200 L 50 50 0 0 P
+X FB C1 1100 -100 200 L 50 50 0 0 P
+X GND C2 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

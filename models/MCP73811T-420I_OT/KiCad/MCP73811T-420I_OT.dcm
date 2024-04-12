@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP73811T-420I_OT
+D Li-Ion Charge Controller 4.2V SOT23-5
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090104.pdf
+$ENDCMP
+#
+#End Doc Library

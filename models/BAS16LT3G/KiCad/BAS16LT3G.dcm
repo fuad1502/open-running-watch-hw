@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAS16LT3G
+D BAS16LT3G, Small Signal Diode,  Switching 200mA max, 75V 6ns Switching, 3-Pin, SOT-23
+K
+F http://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF
+$ENDCMP
+#
+#End Doc Library

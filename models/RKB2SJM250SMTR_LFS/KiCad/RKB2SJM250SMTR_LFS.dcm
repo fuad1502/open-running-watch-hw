@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RKB2SJM250SMTR_LFS
+D Tactile Switches J Bend SMT Term 180gf Force
+K
+F https://www.ckswitches.com/media/3130/ck_rk_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

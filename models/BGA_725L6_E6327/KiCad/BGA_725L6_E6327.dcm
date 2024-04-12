@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BGA_725L6_E6327
+D INFINEON - BGA 725L6 E6327 - RF AMP, 20DB, 1.615GHZ, 3.6V, TSLP-6
+K
+F https://www.infineon.com/dgdl/Infineon-BGA725L6-DS-v02_00-en.pdf?fileId=db3a30433784a0400137ef9a4d341f23
+$ENDCMP
+#
+#End Doc Library

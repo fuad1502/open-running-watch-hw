@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PCS.55.A
+#/18664426/106042/2.50/5/3/Antenna
+DEF PCS.55.A ANT 0 30 Y Y 1 F N
+F0 "ANT" 3150 300 50 H V L CNN
+F1 "PCS.55.A" 3150 200 50 H V L CNN
+F2 "PCS55A" 3150 100 50 H I L CNN
+F3 "https://www.taoglas.com/datasheets/PCS.55.A.pdf" 3150 0 50 H I L CNN
+F4 "Small OTS LTE Antenna 600-3000 MHz, GPS / GLONASS / Galileo / BeiDou (1561-1602MHz), Dimensions: 27*10*1.6mm" 3150 -100 50 H I L CNN "Description"
+F5 "1.6" 3150 -200 50 H I L CNN "Height"
+F6 "960-PCS.55.A" 3150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Taoglas/PCS.55.A?qs=Imq1NPwxi74PnhvwBDXi4A%3D%3D" 3150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Taoglas" 3150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PCS.55.A" 3150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X RF_FEED 1 0 0 200 R 50 50 0 0 P
+X GROUND 2 0 -100 200 R 50 50 0 0 P
+X MECHANICAL_NOT_CONNECTED_1 3 0 -200 200 R 50 50 0 0 P
+X MECHANICAL_NOT_CONNECTED_2 4 3300 0 200 L 50 50 0 0 P
+X MECHANICAL_NOT_CONNECTED_3 5 3300 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 3100 100 3100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

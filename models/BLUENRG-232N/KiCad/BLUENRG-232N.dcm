@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BLUENRG-232N
+D RF System on a Chip - SoC LOW POWER RF
+K
+F https://www.arrow.com/en/products/bluenrg-232n/stmicroelectronics
+$ENDCMP
+#
+#End Doc Library

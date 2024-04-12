@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICP-10100
+D Barometric Pressure Sensors, Relative Accuracy=?1Pa, Waterproof, LxWxT (mm)=2.0x2.0x0.72
+K
+F https://product.tdk.com/system/files/dam/doc/product/sensor/pressure/capacitive-pressure/data_sheet/ds-000186-icp-101xx.pdf
+$ENDCMP
+#
+#End Doc Library

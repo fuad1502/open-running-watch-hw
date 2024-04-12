@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMT-7525-80-SMT-TR
+D Piezo Buzzers & Audio Indicators buzzer, 7.5 mm, 2.5 mm deep, M, 3.6 V, 80 dB, Surface Mount (SMT), Audio Transducer
+K
+F https://www.cuidevices.com/product/resource/cmt-7525-80-smt-tr.pdf
+$ENDCMP
+#
+#End Doc Library

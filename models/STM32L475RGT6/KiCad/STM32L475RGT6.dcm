@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32L475RGT6
+D STMICROELECTRONICS - STM32L475RGT6 - MCU, ARM CORTEX-M4, 80MHZ, LQFP-64
+K
+F https://www.st.com/resource/en/datasheet/stm32l475rc.pdf
+$ENDCMP
+#
+#End Doc Library

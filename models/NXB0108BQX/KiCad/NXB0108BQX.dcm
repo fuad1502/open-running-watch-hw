@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NXB0108BQX
+D NXB0108 - Dual supply translating transceiver; auto direction sensing;\n\t\t\t3-state@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/NXB0108.pdf
+$ENDCMP
+#
+#End Doc Library

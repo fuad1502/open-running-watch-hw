@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-.327-7-1210-TR
+D Crystals 32.786kHz 7pF 20ppm -40C +85C
+K
+F https://www.ecsxtal.com/store/pdf/ECX-1210.pdf
+$ENDCMP
+#
+#End Doc Library

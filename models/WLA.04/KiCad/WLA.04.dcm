@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WLA.04
+D Antennas 2.4GHZ CHIP ANT
+K
+F https://componentsearchengine.com/Datasheets/2/WLA.04.pdf
+$ENDCMP
+#
+#End Doc Library

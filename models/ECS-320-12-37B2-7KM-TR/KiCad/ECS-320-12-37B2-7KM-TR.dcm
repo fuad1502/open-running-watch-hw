@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-320-12-37B2-7KM-TR
+D Crystals 32.000 MHz 12 pF +/-7 +/-10 -20 +70 C +/-2 ppm Max. ESR = 50
+K
+F https://ecsxtal.com/store/pdf/ECX-1637B2.pdf
+$ENDCMP
+#
+#End Doc Library

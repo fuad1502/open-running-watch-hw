@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RKB2SJM250SMTR_LFS
+#/14609694/106042/2.50/4/2/Switch
+DEF RKB2SJM250SMTR_LFS S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "RKB2SJM250SMTR_LFS" 1050 200 50 H V L CNN
+F2 "RKB2SJM250SMTRLFS" 1050 100 50 H I L CNN
+F3 "https://www.ckswitches.com/media/3130/ck_rk_datasheet.pdf" 1050 0 50 H I L CNN
+F4 "Tactile Switches J Bend SMT Term 180gf Force" 1050 -100 50 H I L CNN "Description"
+F5 "2.7" 1050 -200 50 H I L CNN "Height"
+F6 "611-RKB2SJM250SMTRLF" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CK/RKB2SJM250SMTR-LFS?qs=iLbezkQI%252Bsj518EgFgehgw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "C & K COMPONENTS" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RKB2SJM250SMTR LFS" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COM_1 1 0 0 200 R 50 50 0 0 P
+X COM_2 2 1200 0 200 L 50 50 0 0 P
+X NO_1 3 0 -100 200 R 50 50 0 0 P
+X NO_2 4 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

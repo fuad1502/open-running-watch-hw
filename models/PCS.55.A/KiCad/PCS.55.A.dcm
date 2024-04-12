@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCS.55.A
+D Small OTS LTE Antenna 600-3000 MHz, GPS / GLONASS / Galileo / BeiDou (1561-1602MHz), Dimensions: 27*10*1.6mm
+K
+F https://www.taoglas.com/datasheets/PCS.55.A.pdf
+$ENDCMP
+#
+#End Doc Library

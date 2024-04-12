@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL3336AF160Q
+D TACT, 50mA 12VDC, SPST-NO Off-(On), Surface Mount, Right Angle Gull Wing
+K
+F https://configured-product-images.s3.amazonaws.com/2D/specs/TL3336AF160Q.pdf
+$ENDCMP
+#
+#End Doc Library
