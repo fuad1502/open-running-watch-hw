@@ -6,7 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Open Running Watch")
-		(rev "A")
+		(date "2024-04-12")
+		(rev "0.1.0")
+		(company "github.com/fuad1502/open-running-watch-hw")
 	)
 	(lib_symbols
 		(symbol "505110-1492:505110-1492"
@@ -923,16 +925,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "JST Sales"
+			(property "Description" "SH Series 2 Position 1 mm Pitch Surface Mount Side Entry Shrouded Header"
 				(at 0 0 0)
 				(effects
 					(font
@@ -942,7 +935,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "SH Series 2 Position 1 mm Pitch Surface Mount Side Entry Shrouded Header"
+			(property "MF" "JST Sales"
 				(at 0 0 0)
 				(effects
 					(font

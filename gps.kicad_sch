@@ -6,7 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Open Running Watch")
-		(rev "A")
+		(date "2024-04-12")
+		(rev "0.1.0")
+		(company "github.com/fuad1502/open-running-watch-hw")
 	)
 	(lib_symbols
 		(symbol "B39162B4327P810:B39162B4327P810"
