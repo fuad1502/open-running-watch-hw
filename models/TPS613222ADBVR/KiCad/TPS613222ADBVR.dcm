@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS613222ADBVR
+D 6-uA Quiescent Current, 1.8-A Switch Current Boost Converter
+K
+F http://www.ti.com/lit/gpn/tps61322
+$ENDCMP
+#
+#End Doc Library
