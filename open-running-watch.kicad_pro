@@ -600,12 +600,6 @@
         },
         {
           "group_by": false,
-          "label": "DESCRIPTION",
-          "name": "DESCRIPTION",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description_1",
           "name": "Description_1",
           "show": false
@@ -614,18 +608,6 @@
           "group_by": false,
           "label": "MF",
           "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PACKAGE",
-          "name": "PACKAGE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PRICE",
-          "name": "PRICE",
           "show": false
         },
         {
@@ -644,12 +626,6 @@
           "group_by": false,
           "label": "SnapEDA_Link",
           "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "AVAILABILITY",
-          "name": "AVAILABILITY",
           "show": false
         },
         {
@@ -756,10 +732,6 @@
       "controller"
     ],
     [
-      "1f629de6-a342-4766-b241-8eaef771080d",
-      "display"
-    ],
-    [
       "965799a9-2bb8-4661-868f-6c06aa57caea",
       "power_monitor"
     ],
@@ -776,10 +748,6 @@
       "power_monitor3"
     ],
     [
-      "854a9869-55df-4a79-a2e5-f5afd8958ae6",
-      "power_monitor4"
-    ],
-    [
       "609feaca-4667-411e-9bba-5969df574cf4",
       "audio"
     ],
@@ -790,6 +758,14 @@
     [
       "b54da61a-7255-49bd-bb10-b7a52e5ecf75",
       "power_monitor6"
+    ],
+    [
+      "72b765b4-9cf7-4339-9de5-5aa831039a5b",
+      "mip_display"
+    ],
+    [
+      "4738a2aa-ff8b-4524-b446-d409ca453523",
+      "power_monitor7"
     ]
   ],
   "text_variables": {}

@@ -4631,7 +4631,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 153.67 43.18)
+			(xy 139.7 50.8) (xy 153.67 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4761,7 +4761,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 38.1) (xy 153.67 38.1)
+			(xy 139.7 45.72) (xy 153.67 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5011,6 +5011,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 33.02) (xy 153.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733439f4-a644-41b0-a51b-a3e7dbc9c939")
+	)
+	(wire
+		(pts
+			(xy 139.7 35.56) (xy 153.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7365f5a1-3676-4255-bf18-62a421a4a76e")
+	)
+	(wire
+		(pts
 			(xy 63.5 144.78) (xy 63.5 149.86)
 		)
 		(stroke
@@ -5191,7 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 153.67 33.02)
+			(xy 139.7 38.1) (xy 153.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5388,6 +5408,16 @@
 			(type default)
 		)
 		(uuid "acfed861-04f7-459e-8107-48eef2cd8e12")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 153.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa664c1-206d-4dee-b294-4093eb5631bc")
 	)
 	(wire
 		(pts
@@ -5611,7 +5641,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 35.56) (xy 153.67 35.56)
+			(xy 139.7 43.18) (xy 153.67 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7474,7 +7504,7 @@
 	)
 	(hierarchical_label "DISP_CS"
 		(shape output)
-		(at 139.7 33.02 180)
+		(at 139.7 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7556,9 +7586,9 @@
 		)
 		(uuid "6bf5331e-2a21-40ca-87af-46bfd4a54365")
 	)
-	(hierarchical_label "DISP_RESET_N"
+	(hierarchical_label "DISP_EN"
 		(shape output)
-		(at 139.7 35.56 180)
+		(at 139.7 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7591,6 +7621,18 @@
 			(justify right)
 		)
 		(uuid "70aa4c08-84d3-4575-8eb0-1f2d5a1cc003")
+	)
+	(hierarchical_label "DISP_MOSI"
+		(shape output)
+		(at 139.7 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73702943-e9a2-4787-b256-3a9585c50350")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape output)
@@ -7678,7 +7720,7 @@
 	)
 	(hierarchical_label "FUEL_LOW"
 		(shape input)
-		(at 139.7 43.18 180)
+		(at 139.7 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7772,6 +7814,18 @@
 		)
 		(uuid "d47546e6-df16-4313-a545-ff4ebcb3d1ef")
 	)
+	(hierarchical_label "DISP_SCLK"
+		(shape output)
+		(at 139.7 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4f42ec1-5b78-43cd-b24f-399d8a7892b0")
+	)
 	(hierarchical_label "ADC_IN2"
 		(shape input)
 		(at 39.37 71.12 180)
@@ -7786,7 +7840,7 @@
 	)
 	(hierarchical_label "DISP_IO_EN"
 		(shape output)
-		(at 139.7 38.1 180)
+		(at 139.7 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7795,6 +7849,18 @@
 			(justify right)
 		)
 		(uuid "dd2ec006-3269-4baf-bd57-af686c2f2e7a")
+	)
+	(hierarchical_label "DISP_BRIGHT"
+		(shape output)
+		(at 139.7 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e17c15eb-bd58-4a5c-9069-8e3d15e899f9")
 	)
 	(hierarchical_label "ACC_IRQ_1"
 		(shape input)

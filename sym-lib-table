@@ -36,4 +36,6 @@
   (lib (name "JS102011JCQN")(type "KiCad")(uri "${KIPRJMOD}/models/JS102011JCQN/KiCad/JS102011JCQN.kicad_sym")(options "")(descr ""))
   (lib (name "SM02B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/models/SM02B-SRSS-TB/SM02B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
   (lib (name "B39162B4327P810")(type "KiCad")(uri "${KIPRJMOD}/models/B39162B4327P810/B39162B4327P810.kicad_sym")(options "")(descr ""))
+  (lib (name "1-2328702-0")(type "KiCad")(uri "${KIPRJMOD}/models/1-2328702-0/KiCad/1-2328702-0.kicad_sym")(options "")(descr ""))
+  (lib (name "2328702-4")(type "KiCad")(uri "${KIPRJMOD}/models/2328702-4/KiCad/2328702-4.kicad_sym")(options "")(descr ""))
 )

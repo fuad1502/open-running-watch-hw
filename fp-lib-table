@@ -35,4 +35,6 @@
   (lib (name "TL3336AF160Q")(type "KiCad")(uri "${KIPRJMOD}/models/TL3336AF160Q/KiCad")(options "")(descr ""))
   (lib (name "ECS-.327-7-1210-TR")(type "KiCad")(uri "${KIPRJMOD}/models/ECS-.327-7-1210-TR/KiCad")(options "")(descr ""))
   (lib (name "JS102011JCQN")(type "KiCad")(uri "${KIPRJMOD}/models/JS102011JCQN/KiCad")(options "")(descr ""))
+  (lib (name "1-2328702-0")(type "KiCad")(uri "${KIPRJMOD}/models/1-2328702-0/KiCad")(options "")(descr ""))
+  (lib (name "2328702-4")(type "KiCad")(uri "${KIPRJMOD}/models/2328702-4/KiCad")(options "")(descr ""))
 )

@@ -38,3 +38,4 @@ models/*/*
 !models/*/*.kicad_mod
 !models/*/*.step
 !models/*/*.stp
+!models/*/*.STEP
