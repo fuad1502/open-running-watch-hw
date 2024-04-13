@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EVQ-P7J01P
+D Switch,Tactile,3.5x2.9mm,Light Touch Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/577750.pdf
+$ENDCMP
+#
+#End Doc Library

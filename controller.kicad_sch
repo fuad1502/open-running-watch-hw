@@ -1148,6 +1148,193 @@
 				)
 			)
 		)
+		(symbol "EVQ-P7J01P:EVQ-P7J01P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "EVQ-P7J01P"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EVQP7J01P"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/577750.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch,Tactile,3.5x2.9mm,Light Touch Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-EVQP7J01P"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7J01P?qs=rJ%252BziJWpyszkfuBTA00z9w%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EVQ-P7J01P"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EVQ-P7J01P_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "JS102011JCQN:JS102011JCQN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3264,247 +3451,6 @@
 				)
 			)
 		)
-		(symbol "TL3336AF160Q:TL3336AF160Q"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TL3336AF160Q"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "TL3336AF160Q"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3336AF160Q.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "TACT, 50mA 12VDC, SPST-NO Off-(On), Surface Mount, Right Angle Gull Wing"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "7.35"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "612-TL3336AF160Q"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3336AF160Q?qs=iLbezkQI%252Bshf0NMs3%252BGhxA%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "E-Switch"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TL3336AF160Q"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TL3336AF160Q_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "MP5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "W25N512GVEIG:W25N512GVEIG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3889,7 +3835,7 @@
 		(at 355.6 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20e7f609-99bc-4b57-9fa5-d4f3f56b8e59")
+		(uuid "1aad0c33-484f-4ed7-a981-01295038107d")
 	)
 	(junction
 		(at 325.12 151.13)
@@ -3964,12 +3910,6 @@
 		(uuid "9dc281c6-4216-4a30-a62f-3e563d5aa4ee")
 	)
 	(junction
-		(at 355.6 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6046f30-e27c-4472-9b2b-6eeb4022b351")
-	)
-	(junction
 		(at 116.84 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4006,6 +3946,12 @@
 		(uuid "ca542cee-55f0-4c33-9d36-9723a4eb3d91")
 	)
 	(junction
+		(at 355.6 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5420cc7-7477-48ff-bdaf-afa72d53590a")
+	)
+	(junction
 		(at 325.12 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4015,7 +3961,7 @@
 		(at 355.6 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dcc9038c-35b9-4b77-a96f-b34167adcff8")
+		(uuid "e0943efd-cfdf-49f6-88b8-5ec0b2b749fc")
 	)
 	(junction
 		(at 69.85 60.96)
@@ -4029,37 +3975,35 @@
 		(color 0 0 0 0)
 		(uuid "ec157284-da4e-4974-bc27-bddf99f3fb29")
 	)
+	(junction
+		(at 355.6 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee9456ae-1558-4c7c-b0cd-9f707b30d206")
+	)
 	(no_connect
 		(at 217.17 189.23)
 		(uuid "03578923-af70-4761-84f8-f614daaf0229")
-	)
-	(no_connect
-		(at 388.62 118.11)
-		(uuid "0c359731-4d31-494d-ba3a-d9afbb9ca1de")
 	)
 	(no_connect
 		(at 69.85 99.06)
 		(uuid "121502c5-5e7b-484e-a854-157baee2d107")
 	)
 	(no_connect
-		(at 388.62 39.37)
-		(uuid "17d30bf6-16f7-4fe4-9a98-d42a1c07d809")
-	)
-	(no_connect
-		(at 363.22 92.71)
-		(uuid "18413a1b-c2fc-4751-988d-06ae4158da9f")
-	)
-	(no_connect
 		(at 212.09 97.79)
 		(uuid "1cc2f584-6828-4fab-8946-d2d928265d27")
 	)
 	(no_connect
-		(at 181.61 168.91)
-		(uuid "328f6afe-06bf-45eb-a6b0-543820b6b985")
+		(at 386.08 36.83)
+		(uuid "2bf6dfd2-77eb-4ed9-97c5-c2ff1aa524fe")
 	)
 	(no_connect
-		(at 388.62 62.23)
-		(uuid "32ad80b0-4fe1-48e8-8f34-8591179ee944")
+		(at 386.08 62.23)
+		(uuid "2fe4a8c3-f4a4-44e1-a0aa-0f7e95108ec4")
+	)
+	(no_connect
+		(at 181.61 168.91)
+		(uuid "328f6afe-06bf-45eb-a6b0-543820b6b985")
 	)
 	(no_connect
 		(at 181.61 166.37)
@@ -4074,32 +4018,28 @@
 		(uuid "4230e0c2-3022-47ca-8ad1-054fb0271186")
 	)
 	(no_connect
-		(at 363.22 95.25)
-		(uuid "42d78eb8-d8c8-4d74-893d-4890a6147652")
+		(at 386.08 39.37)
+		(uuid "4d6e74a5-bcad-4076-bdc2-b172fc31ff04")
 	)
 	(no_connect
-		(at 388.62 64.77)
-		(uuid "49892a7e-e26d-4c6c-8c98-3943805af571")
+		(at 386.08 113.03)
+		(uuid "4e70c297-621c-494d-8a25-da62d6f50a10")
 	)
 	(no_connect
 		(at 118.11 93.98)
 		(uuid "5aff2c1c-cd6e-4fb2-aeb5-1c6ef959099a")
 	)
 	(no_connect
-		(at 363.22 44.45)
-		(uuid "5cdee2e1-d0a2-4715-9446-f55d509f5578")
+		(at 386.08 140.97)
+		(uuid "5ba1b8fe-96a7-440b-96a2-b363299b3443")
 	)
 	(no_connect
 		(at 118.11 104.14)
 		(uuid "5fe20afc-fc72-4fca-8b54-4f4f9cc63ef3")
 	)
 	(no_connect
-		(at 388.62 92.71)
-		(uuid "60513ac3-e04b-49e7-9cea-c0f57a0576bd")
-	)
-	(no_connect
-		(at 388.62 115.57)
-		(uuid "6788cdf6-3b8d-4974-be67-ea602c19f954")
+		(at 386.08 90.17)
+		(uuid "67aa0dd9-3567-43f2-a425-f69ed597994f")
 	)
 	(no_connect
 		(at 95.25 93.98)
@@ -4114,16 +4054,8 @@
 		(uuid "6e9fbf9b-e504-4e2a-9d14-708da705851b")
 	)
 	(no_connect
-		(at 388.62 41.91)
-		(uuid "7a1000ae-f9c1-40d6-b73c-693b3d49a468")
-	)
-	(no_connect
 		(at 119.38 241.3)
 		(uuid "96547cb8-954a-4e6e-a70b-9556accff1ff")
-	)
-	(no_connect
-		(at 363.22 69.85)
-		(uuid "a0525706-79c8-4c7f-8b8d-4dd8037c725f")
 	)
 	(no_connect
 		(at 209.55 97.79)
@@ -4138,24 +4070,16 @@
 		(uuid "a43a89b1-2a10-4583-ab99-00f2c515ee8c")
 	)
 	(no_connect
-		(at 388.62 113.03)
-		(uuid "a683d098-e16b-4895-b6cb-db240bc734a7")
-	)
-	(no_connect
-		(at 388.62 90.17)
-		(uuid "ad56cec4-a48e-4e3a-ae1f-b75ec2773b5d")
-	)
-	(no_connect
-		(at 388.62 87.63)
-		(uuid "b253a1b6-b60a-4e72-a79e-7129fdfa03fb")
-	)
-	(no_connect
-		(at 363.22 41.91)
-		(uuid "b4608f25-5e61-40ec-af00-0659f1173ab8")
+		(at 386.08 115.57)
+		(uuid "afc162b1-00de-437d-9e8e-0b1b6a172c99")
 	)
 	(no_connect
 		(at 181.61 146.05)
 		(uuid "b6fd9480-5b76-448b-a4cf-facebe281076")
+	)
+	(no_connect
+		(at 386.08 87.63)
+		(uuid "b7b890bf-b969-48f5-98c2-efa3dbf34d18")
 	)
 	(no_connect
 		(at 250.19 156.21)
@@ -4166,20 +4090,16 @@
 		(uuid "bb69d363-6002-4e72-ad99-752c90c61282")
 	)
 	(no_connect
-		(at 388.62 67.31)
-		(uuid "c2439113-bb84-4942-8d56-675c78667ced")
+		(at 386.08 64.77)
+		(uuid "c84e0ae1-9a26-4ba4-80fa-f08d329ada2c")
+	)
+	(no_connect
+		(at 386.08 138.43)
+		(uuid "d7a6ed6c-ff2b-4305-8af1-e98694ce931c")
 	)
 	(no_connect
 		(at 215.9 248.92)
 		(uuid "e2098b24-0975-49e0-acf3-74e06aff0be6")
-	)
-	(no_connect
-		(at 363.22 67.31)
-		(uuid "e606a0ce-bb1a-4b50-b5d1-b83c9ea38317")
-	)
-	(no_connect
-		(at 388.62 36.83)
-		(uuid "ea61fd79-64fb-4d68-8aed-85404705402c")
 	)
 	(no_connect
 		(at 204.47 189.23)
@@ -4188,14 +4108,6 @@
 	(no_connect
 		(at 224.79 189.23)
 		(uuid "eaddfd31-70da-4890-a863-dcc199e05eba")
-	)
-	(no_connect
-		(at 363.22 118.11)
-		(uuid "eb27460a-9611-4c11-8479-a2e07d71a595")
-	)
-	(no_connect
-		(at 363.22 120.65)
-		(uuid "f174b0e4-0e68-4cb4-9cea-1e1b7cf189f3")
 	)
 	(no_connect
 		(at 250.19 171.45)
@@ -4441,16 +4353,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 123.19) (xy 355.6 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bd0a97e-fe81-4814-b357-7855a2d48319")
-	)
-	(wire
-		(pts
 			(xy 116.84 166.37) (xy 128.27 166.37)
 		)
 		(stroke
@@ -4468,16 +4370,6 @@
 			(type default)
 		)
 		(uuid "1cc02f71-18d1-4251-adba-0385268700de")
-	)
-	(wire
-		(pts
-			(xy 355.6 97.79) (xy 355.6 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da047bd-968d-4bb4-8495-87f0f609dc90")
 	)
 	(wire
 		(pts
@@ -4521,13 +4413,13 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 115.57) (xy 355.6 115.57)
+			(xy 355.6 123.19) (xy 355.6 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29887464-5096-44ae-ad49-aa6df10c1ae0")
+		(uuid "2b39047d-806a-4378-8ab0-e90eef8d3c8a")
 	)
 	(wire
 		(pts
@@ -4538,6 +4430,16 @@
 			(type default)
 		)
 		(uuid "2de06f78-f79c-433c-9b4a-c8b41a3499ef")
+	)
+	(wire
+		(pts
+			(xy 351.79 115.57) (xy 355.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dee88a3-c2ad-4e71-b1ca-39c3b007d56e")
 	)
 	(wire
 		(pts
@@ -4641,6 +4543,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 140.97) (xy 355.6 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397abe44-536f-4cd2-b584-741bbca97aa8")
+	)
+	(wire
+		(pts
 			(xy 38.1 218.44) (xy 38.1 223.52)
 		)
 		(stroke
@@ -4721,6 +4633,26 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 148.59) (xy 355.6 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44820555-e242-4ff1-9541-3b86f5fb612f")
+	)
+	(wire
+		(pts
+			(xy 355.6 97.79) (xy 355.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e15ef8-0a60-4312-addf-a34c30400688")
+	)
+	(wire
+		(pts
 			(xy 168.91 158.75) (xy 181.61 158.75)
 		)
 		(stroke
@@ -4758,6 +4690,16 @@
 			(type default)
 		)
 		(uuid "4c7f8dcd-3ae6-46f0-a945-e87889f8f67f")
+	)
+	(wire
+		(pts
+			(xy 351.79 90.17) (xy 355.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbb9593-e923-4324-a4c7-105aa6f7b636")
 	)
 	(wire
 		(pts
@@ -4921,6 +4863,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 64.77) (xy 355.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67970a4c-bfce-421a-8591-19c63780dcec")
+	)
+	(wire
+		(pts
 			(xy 237.49 53.34) (xy 222.25 53.34)
 		)
 		(stroke
@@ -4938,16 +4890,6 @@
 			(type default)
 		)
 		(uuid "6b8afacf-f0fb-4b5a-b920-0803be5e281f")
-	)
-	(wire
-		(pts
-			(xy 355.6 115.57) (xy 363.22 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d6f11f5-72d6-4e3c-a0df-0c9a7dec919f")
 	)
 	(wire
 		(pts
@@ -4998,16 +4940,6 @@
 			(type default)
 		)
 		(uuid "70c05b1f-1763-4101-854f-a307fc252831")
-	)
-	(wire
-		(pts
-			(xy 355.6 90.17) (xy 363.22 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72901625-5c39-4887-bf1f-4eb2df72ac79")
 	)
 	(wire
 		(pts
@@ -5161,16 +5093,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 64.77) (xy 355.6 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877e270c-4645-4d60-a16b-06397093aea9")
-	)
-	(wire
-		(pts
 			(xy 105.41 58.42) (xy 119.38 58.42)
 		)
 		(stroke
@@ -5211,6 +5133,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 64.77) (xy 363.22 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f33463-f466-453b-8139-dd7dfeafe95a")
+	)
+	(wire
+		(pts
 			(xy 139.7 38.1) (xy 153.67 38.1)
 		)
 		(stroke
@@ -5228,6 +5160,16 @@
 			(type default)
 		)
 		(uuid "9652e1fc-55c7-4a92-b3dc-126cba5bf8ca")
+	)
+	(wire
+		(pts
+			(xy 355.6 140.97) (xy 363.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b52011-4f3b-4d1c-9582-c4b8c58c566e")
 	)
 	(wire
 		(pts
@@ -5281,6 +5223,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 115.57) (xy 363.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8477f8-13d0-4a01-a581-10ca433ead84")
+	)
+	(wire
+		(pts
 			(xy 128.27 166.37) (xy 128.27 168.91)
 		)
 		(stroke
@@ -5308,6 +5260,16 @@
 			(type default)
 		)
 		(uuid "a0f53bfd-8925-4e69-adfa-3a3d95b46eaa")
+	)
+	(wire
+		(pts
+			(xy 355.6 90.17) (xy 363.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28e90a1-4a97-4230-8001-6114a6d7bf9e")
 	)
 	(wire
 		(pts
@@ -5691,16 +5653,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 72.39) (xy 355.6 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8d39cb9-4b14-4890-96d1-2c329b9e4155")
-	)
-	(wire
-		(pts
 			(xy 118.11 109.22) (xy 125.73 109.22)
 		)
 		(stroke
@@ -5708,16 +5660,6 @@
 			(type default)
 		)
 		(uuid "da945954-d32e-472e-a5d2-426e3e4fcbde")
-	)
-	(wire
-		(pts
-			(xy 355.6 64.77) (xy 363.22 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce25398-234d-4597-bdc0-f3461ac3df60")
 	)
 	(wire
 		(pts
@@ -5748,6 +5690,16 @@
 			(type default)
 		)
 		(uuid "df508d6f-23fe-4da1-aebc-4e1a0062c798")
+	)
+	(wire
+		(pts
+			(xy 355.6 72.39) (xy 355.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbf60ba-c07e-4b6d-a791-7fd2aa46ecab")
 	)
 	(wire
 		(pts
@@ -5808,16 +5760,6 @@
 			(type default)
 		)
 		(uuid "eb11fa4b-5c13-42f9-9aea-fd45cd266380")
-	)
-	(wire
-		(pts
-			(xy 351.79 90.17) (xy 355.6 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1d3cf1-df5c-46da-8abd-a3a7f65cbf82")
 	)
 	(wire
 		(pts
@@ -6133,6 +6075,17 @@
 		)
 		(uuid "0c76d6f5-8481-41d8-8893-ab800c00347b")
 	)
+	(label "VDD"
+		(at 355.6 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e18222d-6989-45c5-9a45-35443b2e3b2b")
+	)
 	(label "VCC_FLASH"
 		(at 63.5 218.44 270)
 		(fields_autoplaced yes)
@@ -6187,6 +6140,17 @@
 			(justify right bottom)
 		)
 		(uuid "1265d1ed-3e23-49a2-9d3f-cf3e0a84fe71")
+	)
+	(label "VDD"
+		(at 355.6 153.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "133374e6-c761-4013-88a7-c7e1f5fc75bb")
 	)
 	(label "VCP_RX"
 		(at 86.36 109.22 0)
@@ -6617,17 +6581,6 @@
 		)
 		(uuid "5dd06c1c-17b5-4aac-9274-76caa242b619")
 	)
-	(label "VDD"
-		(at 355.6 77.47 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5eab6c6a-90a6-4701-9685-a993f2a2aeed")
-	)
 	(label "NRST"
 		(at 30.48 99.06 0)
 		(fields_autoplaced yes)
@@ -6750,6 +6703,17 @@
 		(uuid "71e192e0-cb59-4a19-a59a-3e9e8c2ac96e")
 	)
 	(label "VDD"
+		(at 355.6 128.27 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74a0e030-edc8-40d2-b1b4-72a8b6903512")
+	)
+	(label "VDD"
 		(at 39.37 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6792,17 +6756,6 @@
 			(justify left bottom)
 		)
 		(uuid "811142dc-cb6e-4b5a-8b70-46cf47f6b26b")
-	)
-	(label "VDD"
-		(at 355.6 102.87 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82540f0c-6048-43a5-9697-2b8a62b10d52")
 	)
 	(label "QUADSPI_NCS"
 		(at 137.16 204.47 270)
@@ -7002,17 +6955,6 @@
 		)
 		(uuid "aca3483f-b623-41a3-9c49-b90e2df8daed")
 	)
-	(label "VDD"
-		(at 355.6 128.27 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad174d24-3472-40ba-ac22-f60d3b38f0d8")
-	)
 	(label "QUADSPI_NCS"
 		(at 229.87 207.01 90)
 		(fields_autoplaced yes)
@@ -7089,6 +7031,17 @@
 			(justify right bottom)
 		)
 		(uuid "c60b4d0e-3302-4b0e-97cf-03cd4377133f")
+	)
+	(label "VDD"
+		(at 355.6 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c714cc35-3357-466c-b381-72ee162e37b4")
 	)
 	(label "USART3_RX"
 		(at 227.33 82.55 270)
@@ -8075,150 +8028,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TL3336AF160Q:TL3336AF160Q")
-		(at 363.22 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d30e165-df6e-42a8-a7ae-4d14922dd5fb")
-		(property "Reference" "S6"
-			(at 375.92 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL3336AF160Q"
-			(at 375.92 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TL3336AF160Q:TL3336AF160Q"
-			(at 384.81 207.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3336AF160Q.pdf"
-			(at 384.81 307.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TACT, 50mA 12VDC, SPST-NO Off-(On), Surface Mount, Right Angle Gull Wing"
-			(at 363.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.35"
-			(at 384.81 507.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-TL3336AF160Q"
-			(at 384.81 607.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3336AF160Q?qs=iLbezkQI%252Bshf0NMs3%252BGhxA%3D%3D"
-			(at 384.81 707.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 384.81 807.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TL3336AF160Q"
-			(at 384.81 907.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 363.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP3"
-			(uuid "66987ef0-7c58-4d7b-8fcd-611558a51873")
-		)
-		(pin "MP4"
-			(uuid "5115e537-55b9-4375-9e04-6dc4c9cc6c8a")
-		)
-		(pin "MP5"
-			(uuid "0332ae3b-6523-41dc-ac76-5f266df66b70")
-		)
-		(pin "2"
-			(uuid "ae46bf16-d801-4181-9c77-04ef4b2bc455")
-		)
-		(pin "MP1"
-			(uuid "53cbad17-e3e3-4766-abc1-262e0e3dc65e")
-		)
-		(pin "1"
-			(uuid "21175c5a-39e5-4f90-929e-9373b40972f7")
-		)
-		(pin "MP2"
-			(uuid "f086b47a-096a-4e6b-a1ec-9391bdbfb21d")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
-					(reference "S6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 208.28 0)
 		(unit 1)
@@ -8279,103 +8088,6 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
 					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 355.6 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "133cf64c-6d48-4cba-b414-003d0b2ac1d7")
-		(property "Reference" "R33"
-			(at 358.14 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 358.14 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 353.822 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 355.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 355.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
-			(at 355.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 355.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 355.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d700ca8-fe2e-4185-8168-3532d97e8d98")
-		)
-		(pin "2"
-			(uuid "5aa08567-0510-4b7c-9395-12ab566d909b")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8479,6 +8191,132 @@
 		)
 	)
 	(symbol
+		(lib_id "EVQ-P7J01P:EVQ-P7J01P")
+		(at 363.22 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16984f91-d7bb-4d63-93d5-df05bb31e024")
+		(property "Reference" "S4"
+			(at 374.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7J01P"
+			(at 374.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVQ-P7J01P:EVQP7J01P"
+			(at 382.27 157.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/577750.pdf"
+			(at 382.27 257.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch,Tactile,3.5x2.9mm,Light Touch Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm"
+			(at 363.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 382.27 457.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EVQP7J01P"
+			(at 382.27 557.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7J01P?qs=rJ%252BziJWpyszkfuBTA00z9w%3D%3D"
+			(at 382.27 657.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 382.27 757.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-P7J01P"
+			(at 382.27 857.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4fb05489-b7bb-4e49-8655-34049bda4a4b")
+		)
+		(pin "2"
+			(uuid "d4341cb2-88e2-4bce-bd8f-17fd6d65ff63")
+		)
+		(pin "1"
+			(uuid "5167dcda-abb1-4849-9644-6f4a63c34988")
+		)
+		(pin "4"
+			(uuid "02c59ed5-4395-450e-9c77-fdae26437c08")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 139.7 162.56 0)
 		(unit 1)
@@ -8576,7 +8414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TL3336AF160Q:TL3336AF160Q")
+		(lib_id "EVQ-P7J01P:EVQ-P7J01P")
 		(at 363.22 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8584,35 +8422,25 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "19141304-0825-43ec-9ad9-9090098c28cc")
+		(uuid "1ca94158-15b3-414e-bb89-4acc46bd5422")
 		(property "Reference" "S5"
-			(at 375.92 80.01 0)
+			(at 374.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TL3336AF160Q"
-			(at 375.92 82.55 0)
+		(property "Value" "EVQ-P7J01P"
+			(at 374.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TL3336AF160Q:TL3336AF160Q"
-			(at 384.81 182.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3336AF160Q.pdf"
-			(at 384.81 282.55 0)
+		(property "Footprint" "EVQ-P7J01P:EVQP7J01P"
+			(at 382.27 182.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8449,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TACT, 50mA 12VDC, SPST-NO Off-(On), Surface Mount, Right Angle Gull Wing"
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/577750.pdf"
+			(at 382.27 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch,Tactile,3.5x2.9mm,Light Touch Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm"
 			(at 363.22 87.63 0)
 			(effects
 				(font
@@ -8630,8 +8468,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7.35"
-			(at 384.81 482.55 0)
+		(property "Height" "1"
+			(at 382.27 482.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,8 +8478,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "612-TL3336AF160Q"
-			(at 384.81 582.55 0)
+		(property "Mouser Part Number" "667-EVQP7J01P"
+			(at 382.27 582.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,8 +8488,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3336AF160Q?qs=iLbezkQI%252Bshf0NMs3%252BGhxA%3D%3D"
-			(at 384.81 682.55 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7J01P?qs=rJ%252BziJWpyszkfuBTA00z9w%3D%3D"
+			(at 382.27 682.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,8 +8498,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 384.81 782.55 0)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 382.27 782.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,8 +8508,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TL3336AF160Q"
-			(at 384.81 882.55 0)
+		(property "Manufacturer_Part_Number" "EVQ-P7J01P"
+			(at 382.27 882.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,40 +8518,88 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 363.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP3"
-			(uuid "5e65e27c-01ec-41c1-85c0-bc2398f6013f")
-		)
-		(pin "MP4"
-			(uuid "252371c5-3769-4847-a805-4c53962093dd")
-		)
-		(pin "MP5"
-			(uuid "59c7dbea-9181-4ae2-9d75-39bf0aee000a")
+		(pin "3"
+			(uuid "78167938-8e1d-48b3-abad-9a45340b7dc5")
 		)
 		(pin "2"
-			(uuid "22447800-3c54-4025-817c-91e7843ba98e")
-		)
-		(pin "MP1"
-			(uuid "0f385ace-36fe-4921-93a8-939b33edea84")
+			(uuid "338573f3-b652-45c6-be3c-6d2a8194978d")
 		)
 		(pin "1"
-			(uuid "39cd6a4e-b169-44e7-8d61-3a583cd14934")
+			(uuid "858ea48b-eb5e-4b45-96ea-cacdd472aadc")
 		)
-		(pin "MP2"
-			(uuid "f3e39b48-b1bc-4802-bead-35b7fa9a08ea")
+		(pin "4"
+			(uuid "76218094-c99b-4c0f-b331-8e51b86bcea1")
 		)
 		(instances
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
 					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 363.22 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ed5cf9a-fd50-494b-a317-be41db9e8f86")
+		(property "Reference" "#PWR0122"
+			(at 363.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "562261a9-0049-4791-ad32-3118d074f54b")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -8786,53 +8672,17 @@
 		)
 	)
 	(symbol
-		(lib_id "TL3336AF160Q:TL3336AF160Q")
-		(at 363.22 36.83 0)
+		(lib_id "power:GND")
+		(at 363.22 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2a006d3e-0729-4d75-b341-322ac16fc722")
-		(property "Reference" "S3"
-			(at 375.92 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL3336AF160Q"
-			(at 375.92 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TL3336AF160Q:TL3336AF160Q"
-			(at 384.81 131.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3336AF160Q.pdf"
-			(at 384.81 231.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TACT, 50mA 12VDC, SPST-NO Off-(On), Surface Mount, Right Angle Gull Wing"
-			(at 363.22 36.83 0)
+		(uuid "2469abbf-a7ca-491b-ae2d-0415d2a240ff")
+		(property "Reference" "#PWR0129"
+			(at 363.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,58 +8690,16 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7.35"
-			(at 384.81 431.75 0)
+		(property "Value" "GND"
+			(at 363.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "612-TL3336AF160Q"
-			(at 384.81 531.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3336AF160Q?qs=iLbezkQI%252Bshf0NMs3%252BGhxA%3D%3D"
-			(at 384.81 631.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 384.81 731.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TL3336AF160Q"
-			(at 384.81 831.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 363.22 36.83 0)
+		(property "Footprint" ""
+			(at 363.22 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,31 +8707,97 @@
 				(hide yes)
 			)
 		)
-		(pin "MP3"
-			(uuid "9da6808a-907c-4b85-839d-7944d6778f6b")
+		(property "Datasheet" ""
+			(at 363.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "MP4"
-			(uuid "e3597cb6-49f2-4f6c-aa63-fb399c618bc9")
-		)
-		(pin "MP5"
-			(uuid "406c23ae-b831-4cb1-a7f6-c20f65e8f007")
-		)
-		(pin "2"
-			(uuid "e120f505-edca-4144-a509-ba135d968ec1")
-		)
-		(pin "MP1"
-			(uuid "bd767dd3-a33f-4e8a-944b-6a3d12509008")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "49308b73-5a3a-45bc-94d2-061af72baa24")
-		)
-		(pin "MP2"
-			(uuid "15106fb4-8ee9-4dbf-a695-89475f6f20e0")
+			(uuid "78d03b57-3cdd-45ba-a26c-00b27baa9693")
 		)
 		(instances
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
-					(reference "S3")
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 363.22 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ffee66-04ce-424e-a4dc-bc770449c739")
+		(property "Reference" "#PWR0121"
+			(at 363.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee83ac79-6801-46a4-935a-8edb49945b31")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -10433,6 +10307,132 @@
 		)
 	)
 	(symbol
+		(lib_id "EVQ-P7J01P:EVQ-P7J01P")
+		(at 363.22 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61059e99-5988-4c15-9aae-196909a1b671")
+		(property "Reference" "S7"
+			(at 374.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7J01P"
+			(at 374.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVQ-P7J01P:EVQP7J01P"
+			(at 382.27 233.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/577750.pdf"
+			(at 382.27 333.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch,Tactile,3.5x2.9mm,Light Touch Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm"
+			(at 363.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 382.27 533.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EVQP7J01P"
+			(at 382.27 633.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7J01P?qs=rJ%252BziJWpyszkfuBTA00z9w%3D%3D"
+			(at 382.27 733.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 382.27 833.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-P7J01P"
+			(at 382.27 933.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d549c7a-00af-457e-abb0-8060edfd846a")
+		)
+		(pin "2"
+			(uuid "3c10b269-1258-48e0-8fb2-f2cc0b37c723")
+		)
+		(pin "1"
+			(uuid "6b375786-a3d5-4c93-b006-58d2afefd0bf")
+		)
+		(pin "4"
+			(uuid "417ce7c1-8c80-433a-827d-e504c8e15fc6")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ECS-_327-7-1210-TR:ECS-.327-7-1210-TR")
 		(at 123.19 158.75 0)
 		(unit 1)
@@ -10565,6 +10565,132 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
 					(reference "Y3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVQ-P7J01P:EVQ-P7J01P")
+		(at 363.22 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "660f1c70-4e92-4d8e-aa7c-e96f49471e0d")
+		(property "Reference" "S6"
+			(at 374.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7J01P"
+			(at 374.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVQ-P7J01P:EVQP7J01P"
+			(at 382.27 207.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/577750.pdf"
+			(at 382.27 307.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch,Tactile,3.5x2.9mm,Light Touch Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm"
+			(at 363.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 382.27 507.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EVQP7J01P"
+			(at 382.27 607.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7J01P?qs=rJ%252BziJWpyszkfuBTA00z9w%3D%3D"
+			(at 382.27 707.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 382.27 807.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-P7J01P"
+			(at 382.27 907.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a55d87ad-b49c-4be1-92f0-e19f345e409b")
+		)
+		(pin "2"
+			(uuid "647d1efe-8b2e-47b8-8e0b-0b239e19f825")
+		)
+		(pin "1"
+			(uuid "d8ebb31e-01c8-4db1-ba71-43567dc49488")
+		)
+		(pin "4"
+			(uuid "66bd5684-d6d4-470a-8733-0a82e461aa11")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -10770,16 +10896,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 355.6 68.58 0)
+		(at 355.6 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c063587-f1bd-4fb6-95eb-0f15ba5f7d29")
-		(property "Reference" "R31"
-			(at 358.14 67.3099 0)
+		(uuid "6f900bb7-d61f-4e19-81c8-205b4b550fb5")
+		(property "Reference" "R33"
+			(at 358.14 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10788,7 +10914,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 358.14 69.8499 0)
+			(at 358.14 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10797,7 +10923,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 353.822 68.58 90)
+			(at 353.822 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10806,7 +10932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 355.6 68.58 0)
+			(at 355.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10815,7 +10941,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 355.6 68.58 0)
+			(at 355.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,7 +10950,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
-			(at 355.6 68.58 0)
+			(at 355.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +10959,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 355.6 68.58 0)
+			(at 355.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +10968,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 355.6 68.58 0)
+			(at 355.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,81 +10977,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "506cc38b-afc5-4981-913f-83d59b787110")
+			(uuid "37109a3c-73b5-48ad-8dd7-7baefb9e8abd")
 		)
 		(pin "2"
-			(uuid "64090689-3321-449e-a680-d0cffc3f6194")
+			(uuid "bc6bb05b-ceb9-4708-ad4c-071c2a6114a4")
 		)
 		(instances
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 363.22 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7067e27d-3387-4449-9293-6025bd030c62")
-		(property "Reference" "#PWR0121"
-			(at 363.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 363.22 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 363.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c2df65c-a254-454c-a7b8-0b2712c2e3d0")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
-					(reference "#PWR0121")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -11951,6 +12011,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 355.6 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87d8a05b-e0e6-44df-9ebb-10ffa46d5cfd")
+		(property "Reference" "R31"
+			(at 358.14 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 358.14 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 353.822 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
+			(at 355.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 355.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 355.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6dd48c1-f74a-42ac-b578-34b0da42a144")
+		)
+		(pin "2"
+			(uuid "61fe7351-a310-44e4-8250-4778353cd9bd")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 63.5 227.33 0)
 		(unit 1)
@@ -12732,103 +12889,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 355.6 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad162574-7117-4bc1-be9e-7e19159cc2f5")
-		(property "Reference" "R32"
-			(at 358.14 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 358.14 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 353.822 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 355.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 355.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
-			(at 355.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 355.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 355.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f42c1f0-acb5-46e2-bd25-f9c78086cc5e")
-		)
-		(pin "2"
-			(uuid "84a37bc3-a210-4660-b27d-89fea8263102")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 96.52 180)
 		(unit 1)
@@ -12992,53 +13052,35 @@
 		)
 	)
 	(symbol
-		(lib_id "TL3336AF160Q:TL3336AF160Q")
-		(at 363.22 62.23 0)
+		(lib_id "Device:R")
+		(at 355.6 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b19c856c-1494-4288-8f98-843d87304218")
-		(property "Reference" "S4"
-			(at 375.92 54.61 0)
+		(uuid "b1db2539-a017-40cb-ad6a-d35fb2a11c3b")
+		(property "Reference" "R32"
+			(at 358.14 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL3336AF160Q"
-			(at 375.92 57.15 0)
+		(property "Value" "10k"
+			(at 358.14 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TL3336AF160Q:TL3336AF160Q"
-			(at 384.81 157.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3336AF160Q.pdf"
-			(at 384.81 257.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TACT, 50mA 12VDC, SPST-NO Off-(On), Surface Mount, Right Angle Gull Wing"
-			(at 363.22 62.23 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 353.822 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13046,58 +13088,35 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7.35"
-			(at 384.81 457.15 0)
+		(property "Datasheet" "~"
+			(at 355.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "612-TL3336AF160Q"
-			(at 384.81 557.15 0)
+		(property "Description" "Resistor"
+			(at 355.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3336AF160Q?qs=iLbezkQI%252Bshf0NMs3%252BGhxA%3D%3D"
-			(at 384.81 657.15 0)
+		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
+			(at 355.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 384.81 757.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TL3336AF160Q"
-			(at 384.81 857.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 363.22 62.23 0)
+		(property "Field6" ""
+			(at 355.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13105,31 +13124,25 @@
 				(hide yes)
 			)
 		)
-		(pin "MP3"
-			(uuid "ffcf2bc0-5960-4d52-a01f-9e49c5cc2b0d")
-		)
-		(pin "MP4"
-			(uuid "59eb5a09-c95c-4cb6-a7ec-870d43391f2b")
-		)
-		(pin "MP5"
-			(uuid "bd91dffc-d943-46df-9f48-8cc15764c783")
-		)
-		(pin "2"
-			(uuid "8bcd9d98-ba8e-45ce-a5b2-2730458baadd")
-		)
-		(pin "MP1"
-			(uuid "e21d7579-b38b-4f8f-a1a4-21b66fc0f26f")
+		(property "MPN" ""
+			(at 355.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "95419897-42c9-4aaa-a8b3-f40f2b2aeb76")
+			(uuid "b34d3278-f7c7-4d90-8a5e-7f4802aa4a09")
 		)
-		(pin "MP2"
-			(uuid "61172ba5-d721-4615-9771-35c5fd988866")
+		(pin "2"
+			(uuid "3a248af3-8a83-42fe-8b40-12020ba7e1d3")
 		)
 		(instances
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
-					(reference "S4")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -13588,6 +13601,72 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 363.22 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c27d2278-b1c8-47d3-800c-f73f0d3bc173")
+		(property "Reference" "#PWR0120"
+			(at 363.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "412e927e-4937-4213-baf8-8ede6c058083")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -14075,6 +14154,132 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVQ-P7J01P:EVQ-P7J01P")
+		(at 363.22 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5fcc878-ba4c-4a7c-a594-967739b9ab6a")
+		(property "Reference" "S3"
+			(at 374.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7J01P"
+			(at 374.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVQ-P7J01P:EVQP7J01P"
+			(at 382.27 131.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/577750.pdf"
+			(at 382.27 231.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch,Tactile,3.5x2.9mm,Light Touch Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm"
+			(at 363.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 382.27 431.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EVQP7J01P"
+			(at 382.27 531.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7J01P?qs=rJ%252BziJWpyszkfuBTA00z9w%3D%3D"
+			(at 382.27 631.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 382.27 731.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-P7J01P"
+			(at 382.27 831.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ecb7c809-3bb0-43ed-9880-45dce0c6c141")
+		)
+		(pin "2"
+			(uuid "dd3a3627-4182-4d8b-b1ba-afd70808c2e9")
+		)
+		(pin "1"
+			(uuid "76237a2d-bfd7-4ee3-ab3f-d590f0590421")
+		)
+		(pin "4"
+			(uuid "6f9a16bc-6071-4f43-8aed-aab91a9583dd")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -14574,72 +14779,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 363.22 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e51d6265-7d08-4911-8b27-61e7850940ee")
-		(property "Reference" "#PWR0122"
-			(at 363.22 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 363.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 363.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c94e1cdf-130f-42e1-8223-a75b39db4a91")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 128.27 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14899,17 +15038,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 363.22 62.23 180)
+		(lib_id "Device:R")
+		(at 355.6 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "efcfe0e6-b42d-444e-9e8e-4f22a3d00c18")
-		(property "Reference" "#PWR0120"
-			(at 363.22 55.88 0)
+		(uuid "f71a8787-d22f-4068-8c9d-42d7e79cdd9a")
+		(property "Reference" "R47"
+			(at 358.14 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 358.14 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 353.822 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14917,16 +15074,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 363.22 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 62.23 0)
+		(property "Datasheet" "~"
+			(at 355.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14934,8 +15083,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 363.22 62.23 0)
+		(property "Description" "Resistor"
+			(at 355.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14943,8 +15092,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 363.22 62.23 0)
+		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
+			(at 355.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 355.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 355.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,12 +15120,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5499e595-1f00-48ba-a245-6760a11b356a")
+			(uuid "0bf99bcf-f34b-4c9b-9901-d0b5d5a55bcc")
+		)
+		(pin "2"
+			(uuid "0140e15c-0599-48a8-878f-a9474ee705ce")
 		)
 		(instances
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
-					(reference "#PWR0120")
+					(reference "R47")
 					(unit 1)
 				)
 			)

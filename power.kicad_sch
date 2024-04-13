@@ -3586,7 +3586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "TPS613222ADBVR:SOT95P280X145-5N"
 			(at 233.68 221.92 0)
 			(effects
 				(font

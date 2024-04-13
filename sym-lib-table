@@ -39,4 +39,5 @@
   (lib (name "1-2328702-0")(type "KiCad")(uri "${KIPRJMOD}/models/1-2328702-0/KiCad/1-2328702-0.kicad_sym")(options "")(descr ""))
   (lib (name "2328702-4")(type "KiCad")(uri "${KIPRJMOD}/models/2328702-4/KiCad/2328702-4.kicad_sym")(options "")(descr ""))
   (lib (name "TPS613222ADBVR")(type "KiCad")(uri "${KIPRJMOD}/models/TPS613222ADBVR/KiCad/TPS613222ADBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "EVQ-P7J01P")(type "KiCad")(uri "${KIPRJMOD}/models/EVQ-P7J01P/KiCad/EVQ-P7J01P.kicad_sym")(options "")(descr ""))
 )
