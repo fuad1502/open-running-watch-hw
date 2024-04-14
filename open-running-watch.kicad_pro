@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.09
         }
       },
       "diff_pair_dimensions": [
@@ -180,7 +180,7 @@
         0.0,
         0.1524,
         0.254,
-        0.263398,
+        0.313944,
         0.34798,
         0.508
       ],
@@ -485,11 +485,11 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.254,
         "via_diameter": 0.45,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 10
       },
       {
         "bus_width": 12,
@@ -502,19 +502,47 @@
         "microvia_drill": 0.1,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.263398,
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.313944,
         "via_diameter": 0.45,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 10
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/accelerometer/1V8": "Power",
+      "/audio/VCC": "Power",
+      "/audio/VCC_IN": "Power",
+      "/biometric/VCC": "Power",
+      "/biometric/VCC_IN": "Power",
+      "/bluenrg/VBAT": "Power",
+      "/controller/OTG_FS_BUS": "Power",
+      "/controller/VCC_FLASH": "Power",
+      "/controller/VDD": "Power",
+      "/gps/ANT_IN": "RF",
+      "/gps/VCC": "Power",
+      "/mip_display/DISP_VDD": "Power",
+      "/mip_display/DISP_VDD_IN": "Power",
+      "/power/SRN": "Power",
+      "/power/SRP": "Power",
+      "Net-(ANT1-RF_FEED)": "RF",
+      "Net-(ANT2-RF_FEED)": "RF",
+      "Net-(C21-Pad1)": "RF",
+      "Net-(FL1-INPUT)": "RF",
+      "Net-(FL1-OUTPUT)": "RF",
+      "Net-(IC3-AI)": "RF",
+      "Net-(T1-SE)": "RF"
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

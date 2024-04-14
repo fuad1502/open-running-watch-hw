@@ -3118,6 +3118,52 @@
 		)
 		(uuid "f2c33e16-0c3b-4817-a267-0246ea137bdc")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 210.82 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "505d372f-bfe9-4e9f-8509-f65568608113")
+		(property "Netclass" "RF"
+			(at 211.5185 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 224.79 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf5a7d21-ac90-430c-87e3-ee872a26ecc5")
+		(property "Netclass" "RF"
+			(at 225.4885 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 219.71 107.95 0)

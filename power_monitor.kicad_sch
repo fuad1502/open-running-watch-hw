@@ -937,6 +937,29 @@
 		)
 		(uuid "e60b8394-3cd7-4d22-a3b4-68680ca3f78f")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 161.29 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e280cb7-1d1b-4e80-a4ed-26f07229dba3")
+		(property "Netclass" "Power"
+			(at 161.9885 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 171.45 115.57 0)
