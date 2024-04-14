@@ -1697,16 +1697,16 @@
 		(uuid "46b82d0f-e8d5-4e8e-b24d-dfca8f22ff43")
 	)
 	(junction
-		(at 71.12 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95c8541a-5c80-4c98-bd78-016f5c0f2127")
-	)
-	(junction
 		(at 109.22 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a58c1929-28bb-4018-9ee4-9d4c5a1fc147")
+	)
+	(junction
+		(at 68.58 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9f7bd95-8cda-4e97-b9c3-40bbd468e0d4")
 	)
 	(no_connect
 		(at 88.9 127)
@@ -1828,23 +1828,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 121.92) (xy 72.39 121.92)
+			(xy 55.88 121.92) (xy 68.58 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "485fe0a4-9365-4f3a-9f26-c1ef32e6de98")
-	)
-	(wire
-		(pts
-			(xy 55.88 121.92) (xy 71.12 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ce7b38f-f300-47a1-9817-7f98b79f993e")
 	)
 	(wire
 		(pts
@@ -1945,6 +1935,16 @@
 			(type default)
 		)
 		(uuid "bb95d9fc-a79b-4274-8f75-23027ffdd7da")
+	)
+	(wire
+		(pts
+			(xy 68.58 121.92) (xy 72.39 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6aef18-8532-4003-8ef6-85a767b0f46d")
 	)
 	(wire
 		(pts
@@ -2705,94 +2705,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 71.12 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2479b83c-b6ff-4477-ba96-4794623e580a")
-		(property "Reference" "C15"
-			(at 67.31 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.5p"
-			(at 67.31 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 70.1548 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 71.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " GJM1555C1HR50CB01J "
-			(at 71.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 71.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "738705c5-5f67-4999-ab00-13a2a2f8a763")
-		)
-		(pin "2"
-			(uuid "f5e24faf-1830-4a2a-b0cb-e832a0628ddb")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/9b67ad8e-bae2-48a8-aa02-e86e63145742"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 218.44 93.98 0)
 		(mirror y)
@@ -3174,7 +3086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2n"
+		(property "Value" "10n"
 			(at 82.55 119.3799 0)
 			(effects
 				(font
@@ -3210,7 +3122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LQG15HS8N2G02D"
+		(property "Manufacturer_Part_Number" "LQG15HS10NH02D"
 			(at 81.28 118.11 0)
 			(effects
 				(font
@@ -3816,6 +3728,94 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/9b67ad8e-bae2-48a8-aa02-e86e63145742"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 68.58 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7944f77f-f1d2-4ebc-b580-621bcbbfb984")
+		(property "Reference" "L8"
+			(at 69.85 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15n"
+			(at 69.85 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQG15HN15NG02D"
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "633300c6-9dff-46bf-b679-835c8bf26eb2")
+		)
+		(pin "1"
+			(uuid "46e5b55b-6aa1-4937-83e2-6670920d71b3")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/9b67ad8e-bae2-48a8-aa02-e86e63145742"
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -4624,7 +4624,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 114.3 180)
+		(at 68.58 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4633,7 +4633,7 @@
 		(fields_autoplaced yes)
 		(uuid "d193c723-de10-4521-bfd7-9b3691dd5e9f")
 		(property "Reference" "#PWR026"
-			(at 71.12 107.95 0)
+			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4642,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 109.22 0)
+			(at 68.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 114.3 0)
+			(at 68.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 114.3 0)
+			(at 68.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 114.3 0)
+			(at 68.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +4853,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7p"
+		(property "Value" "2.2p"
 			(at 76.2 116.84 90)
 			(effects
 				(font
@@ -4888,17 +4888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GCM1555C1H2R7BA16D"
+		(property "Manufacturer_Part_Number" "GRM1555C1H2R2CA01D"
 			(at 76.2 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 76.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
