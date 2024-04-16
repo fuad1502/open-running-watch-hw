@@ -4982,7 +4982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS62237DRYR:TPS62237DRYR"
+		(property "Footprint" "Package_SON:Texas_USON-6_1x1.45mm_P0.5mm_SMD"
 			(at 165.1 178.74 0)
 			(effects
 				(font
