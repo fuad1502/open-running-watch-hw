@@ -2546,52 +2546,6 @@
 			)
 		)
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 247.65 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b94f8ea3-cd46-46bc-8342-95c9136b57ac")
-		(property "Netclass" "RF"
-			(at 248.3485 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 210.82 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6513794-f6e8-4804-acfa-7c2ce68ec448")
-		(property "Netclass" "RF"
-			(at 211.5185 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 81.28 114.3 180)

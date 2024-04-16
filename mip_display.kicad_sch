@@ -1578,7 +1578,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 109.22) (xy 246.38 109.22)
+			(xy 231.14 109.22) (xy 246.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +1758,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 119.38) (xy 260.35 119.38)
+			(xy 247.65 119.38) (xy 262.89 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2150,7 @@
 		)
 		(uuid "cab97b24-4fde-4a71-a06c-09ca03dff432")
 	)
-	(label "DISP_VDD"
+	(label "DISP_VDDIO"
 		(at 271.78 109.22 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2205,8 +2205,8 @@
 		)
 		(uuid "23f1bf50-bf46-4c00-9ad8-1060d6c88274")
 	)
-	(label "DISP_VDD_IN"
-		(at 233.68 109.22 0)
+	(label "DISP_VDDIO_IN"
+		(at 231.14 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2260,7 +2260,7 @@
 		)
 		(uuid "3f954ca7-9412-484b-abbb-1a9975e3d6fd")
 	)
-	(label "DISP_VDD_IN"
+	(label "DISP_VDD"
 		(at 260.35 116.84 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2326,8 +2326,8 @@
 		)
 		(uuid "62a5e926-be88-4eb4-8dfe-d7ba67ebebde")
 	)
-	(label "DISP_VDDIO"
-		(at 260.35 119.38 180)
+	(label "DISP_VDDIO_IN"
+		(at 262.89 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3297,7 +3297,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4221b809-1df3-473a-a12c-d79281069e23")
 		(property "Reference" "R61"
@@ -3528,7 +3528,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c91e5d3-55dd-4ab5-94e0-ec0eeae4f45b")
 		(property "Reference" "R62"
@@ -3607,7 +3607,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "53c39d41-d2fd-480d-9c77-48f163f2bcd6")
 		(property "Reference" "R60"
@@ -4427,7 +4427,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c31d2bec-d0e3-415f-80a5-b63be698b914")
 		(property "Reference" "R59"
