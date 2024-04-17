@@ -39,3 +39,6 @@ models/*/*
 !models/*/*.step
 !models/*/*.stp
 !models/*/*.STEP
+
+bom.ini
+Fabrication
