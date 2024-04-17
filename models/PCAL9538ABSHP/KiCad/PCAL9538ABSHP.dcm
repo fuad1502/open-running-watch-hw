@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCAL9538ABSHP
+D NXP - PCAL9538ABSHP - I/O Expander, 8 bit, I2C, 1.65 V, 5.5 V, HVQFN, 16 Pins
+K
+F http://www.nxp.com/docs/en/data-sheet/PCAL9538A.pdf
+$ENDCMP
+#
+#End Doc Library

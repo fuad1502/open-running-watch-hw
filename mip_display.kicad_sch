@@ -1501,19 +1501,19 @@
 		(uuid "f0f42b08-bfaf-40b8-b08c-b157b146658e")
 	)
 	(no_connect
-		(at 34.29 72.39)
+		(at 34.29 77.47)
 		(uuid "58b34db3-6cc0-465a-a5ea-02ca353874be")
 	)
 	(no_connect
-		(at 33.02 114.3)
+		(at 33.02 134.62)
 		(uuid "5a1d1f90-df7f-4aaa-ac28-12a58b982d63")
 	)
 	(no_connect
-		(at 33.02 111.76)
+		(at 33.02 132.08)
 		(uuid "b68c2f14-e4a0-48ac-b330-00ce792c2251")
 	)
 	(no_connect
-		(at 34.29 69.85)
+		(at 34.29 74.93)
 		(uuid "cf339630-cec9-4d23-be2b-cb9de0da566a")
 	)
 	(wire
@@ -2996,43 +2996,33 @@
 		)
 	)
 	(symbol
-		(lib_id "2328702-4:2328702-4")
-		(at 34.29 69.85 0)
+		(lib_id "1-2328702-0:1-2328702-0")
+		(at 33.02 134.62 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "250f9451-6e8d-4c72-b1bc-8185c37464a4")
-		(property "Reference" "J6"
-			(at 45.72 62.23 0)
+		(uuid "1c8933e5-31e9-4caf-b2cd-723551b88388")
+		(property "Reference" "J3"
+			(at 45.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2328702-4"
-			(at 45.72 64.77 0)
+		(property "Value" "1-2328702-0"
+			(at 45.72 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "2328702-4:23287024"
-			(at 53.34 164.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773959-7-FPC-Connectors-CN&DocType=Data%20Sheet&DocLang=Chinese (Simplified)&PartCntxt=2328702-4&DocFormat=pdf"
-			(at 53.34 264.77 0)
+		(property "Footprint" "1-2328702-0:123287020"
+			(at 54.61 39.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,8 +3031,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Body Features: Actuator Color Black | Primary Product Color Natural | Configuration Features: PCB Mount Orientation Right Angle | Number of Rows 1 | Compatible With Wire & Cable Type FFC | Number of Positions 4 | Compatible With Wire & Cable Type FPC | Contact Features: Contact Current Rating (Max) .5 AMP | Contact Mating Area Plating Material Gold | Contact Base Material Copper Alloy | Contact Mating Location Dual Side | PCB Contact Termination Area Plating Material Gold | Contact Shape & Form Standard Fla"
-			(at 34.29 69.85 0)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS42/DSANUWW0052081.pdf"
+			(at 54.61 -60.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "AMP - TE CONNECTIVITY - 1-2328702-0 - CONNECTOR, FPC, R/A, 10POS, 1ROW, 0.5MM"
+			(at 33.02 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3051,7 @@
 			)
 		)
 		(property "Height" "1.05"
-			(at 53.34 464.77 0)
+			(at 54.61 -260.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,8 +3060,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "571-2328702-4"
-			(at 53.34 564.77 0)
+		(property "Mouser Part Number" "571-1-2328702-0"
+			(at 54.61 -360.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,8 +3070,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2328702-4?qs=w%2Fv1CP2dgqrq1I7zgm1Wkw%3D%3D"
-			(at 53.34 664.77 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-2328702-0?qs=w%2Fv1CP2dgqo2Dg4sQQnZ1g%3D%3D"
+			(at 54.61 -460.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3081,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TE Connectivity"
-			(at 53.34 764.77 0)
+			(at 54.61 -560.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,8 +3090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "2328702-4"
-			(at 53.34 864.77 0)
+		(property "Manufacturer_Part_Number" "1-2328702-0"
+			(at 54.61 -660.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,27 +3101,45 @@
 			)
 		)
 		(pin "MP1"
-			(uuid "1f2978df-4c8b-440e-8ccd-81ee63298e2e")
+			(uuid "e1c9a688-cf0b-4138-9f4a-13c2724a7b60")
 		)
-		(pin "MP2"
-			(uuid "90251f3a-0fe7-4332-ab2f-51e4b78b22e7")
+		(pin "9"
+			(uuid "ad9c3d4c-1bb1-4686-9589-b1c91e50489b")
+		)
+		(pin "6"
+			(uuid "208f6cf1-f6a9-42f9-815d-691ac2fec198")
+		)
+		(pin "5"
+			(uuid "1e4dc798-3bb4-456f-9cc4-9d3fec1c9071")
 		)
 		(pin "1"
-			(uuid "089b61e0-f571-4d26-8043-8bfae872c923")
-		)
-		(pin "4"
-			(uuid "2a8dfca9-9e8a-4dc8-b260-77e777b3f423")
-		)
-		(pin "2"
-			(uuid "2563f3a0-f26d-481d-bf5e-696e71dd75c9")
+			(uuid "24613dca-6ea0-49ac-bf41-81bd59ae1cb0")
 		)
 		(pin "3"
-			(uuid "63df5567-4d14-4425-a585-2df104032b58")
+			(uuid "5fa5c242-c0c2-43cb-989a-7fe7bd55afbd")
+		)
+		(pin "MP2"
+			(uuid "47cced61-1d23-4a25-9c2c-30c6b780ac76")
+		)
+		(pin "7"
+			(uuid "782cc4cb-74b2-4103-8705-a0dede8bc426")
+		)
+		(pin "2"
+			(uuid "ee82d36f-ca1c-4df7-a11f-29715ced7afe")
+		)
+		(pin "4"
+			(uuid "fc16a07d-2a85-44e7-b273-c5b8420cddfc")
+		)
+		(pin "8"
+			(uuid "c6ceb9bc-b136-4a47-b43e-418bf18cf17f")
+		)
+		(pin "10"
+			(uuid "4455b75c-3928-41c6-b2aa-945f169316f8")
 		)
 		(instances
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/72b765b4-9cf7-4339-9de5-5aa831039a5b"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4126,156 +4144,6 @@
 		)
 	)
 	(symbol
-		(lib_id "1-2328702-0:1-2328702-0")
-		(at 33.02 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c77ed93-c582-4cf5-9ee3-dee6d1d8c811")
-		(property "Reference" "J5"
-			(at 45.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-2328702-0"
-			(at 45.72 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1-2328702-0:123287020"
-			(at 54.61 206.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS42/DSANUWW0052081.pdf"
-			(at 54.61 306.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "AMP - TE CONNECTIVITY - 1-2328702-0 - CONNECTOR, FPC, R/A, 10POS, 1ROW, 0.5MM"
-			(at 33.02 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.05"
-			(at 54.61 506.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "571-1-2328702-0"
-			(at 54.61 606.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-2328702-0?qs=w%2Fv1CP2dgqo2Dg4sQQnZ1g%3D%3D"
-			(at 54.61 706.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 54.61 806.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1-2328702-0"
-			(at 54.61 906.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP1"
-			(uuid "d67cd5d1-3bef-4e1d-a3af-35390ee1a2e3")
-		)
-		(pin "9"
-			(uuid "92833d09-b4d6-4ab3-be7b-d4b0f2fdbde9")
-		)
-		(pin "6"
-			(uuid "daef7d29-88fe-439d-8e24-fda9ea6b70d2")
-		)
-		(pin "5"
-			(uuid "dd3b550c-421a-4ba7-8535-529875b7832b")
-		)
-		(pin "1"
-			(uuid "b1314b03-063a-4697-a377-fa00915f402e")
-		)
-		(pin "3"
-			(uuid "93faf4ca-c344-41e1-823b-11b4595443ef")
-		)
-		(pin "MP2"
-			(uuid "20d00456-5493-4bbc-9416-ac0f7afd179b")
-		)
-		(pin "7"
-			(uuid "aa72e908-8e10-455e-ba13-6e65e66b1617")
-		)
-		(pin "2"
-			(uuid "9da7abce-bab9-47de-8cbb-a35b10bea3f5")
-		)
-		(pin "4"
-			(uuid "909752bb-8431-467f-b7b4-d0af914361bf")
-		)
-		(pin "8"
-			(uuid "09d7ae6c-1942-46d2-935c-36e39ea0d514")
-		)
-		(pin "10"
-			(uuid "d3515e58-91f0-45e4-a840-c80b798c1ff5")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/72b765b4-9cf7-4339-9de5-5aa831039a5b"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 132.08 0)
 		(unit 1)
@@ -4785,6 +4653,138 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/72b765b4-9cf7-4339-9de5-5aa831039a5b"
 					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2328702-4:2328702-4")
+		(at 34.29 77.47 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfa2012b-f19b-4f46-a52f-fb2ffd01da88")
+		(property "Reference" "J4"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2328702-4"
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2328702-4:23287024"
+			(at 53.34 -17.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773959-7-FPC-Connectors-CN&DocType=Data%20Sheet&DocLang=Chinese (Simplified)&PartCntxt=2328702-4&DocFormat=pdf"
+			(at 53.34 -117.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Actuator Color Black | Primary Product Color Natural | Configuration Features: PCB Mount Orientation Right Angle | Number of Rows 1 | Compatible With Wire & Cable Type FFC | Number of Positions 4 | Compatible With Wire & Cable Type FPC | Contact Features: Contact Current Rating (Max) .5 AMP | Contact Mating Area Plating Material Gold | Contact Base Material Copper Alloy | Contact Mating Location Dual Side | PCB Contact Termination Area Plating Material Gold | Contact Shape & Form Standard Fla"
+			(at 34.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.05"
+			(at 53.34 -317.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-2328702-4"
+			(at 53.34 -417.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2328702-4?qs=w%2Fv1CP2dgqrq1I7zgm1Wkw%3D%3D"
+			(at 53.34 -517.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 53.34 -617.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2328702-4"
+			(at 53.34 -717.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP1"
+			(uuid "44810220-3495-4f53-9b7f-0d04ba2f6c45")
+		)
+		(pin "MP2"
+			(uuid "e1af5b60-79ef-4268-a008-0fb46af449c3")
+		)
+		(pin "1"
+			(uuid "a7bb9057-c2e8-4dd1-8868-b49160fe1b07")
+		)
+		(pin "4"
+			(uuid "6d238801-c906-463a-9f75-407492a2ced4")
+		)
+		(pin "2"
+			(uuid "6ce73df1-a757-4ee3-8452-df65db065560")
+		)
+		(pin "3"
+			(uuid "b35ebc8f-077b-4187-ac21-5157997c843c")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/72b765b4-9cf7-4339-9de5-5aa831039a5b"
+					(reference "J4")
 					(unit 1)
 				)
 			)
