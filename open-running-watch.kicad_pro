@@ -529,6 +529,10 @@
       "/mip_display/DISP_VDD": "Power",
       "/mip_display/DISP_VDDIO": "Power",
       "/mip_display/DISP_VDD_IN": "Power",
+      "/power/1V8": "Power",
+      "/power/3V": "Power",
+      "/power/3V3": "Power",
+      "/power/5V": "Power",
       "/power/SRN": "Power",
       "/power/SRP": "Power",
       "Net-(ANT1-RF_FEED)": "RF",
@@ -684,12 +688,6 @@
         },
         {
           "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MF",
           "name": "MF",
           "show": false
@@ -740,8 +738,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Value"
+      "sort_asc": true,
+      "sort_field": "Manufacturer_Part_Number"
     },
     "connection_grid_size": 50.0,
     "drawing": {

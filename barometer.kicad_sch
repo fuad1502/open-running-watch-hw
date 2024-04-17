@@ -1064,7 +1064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71A104MA01D "
+		(property "Manufacturer_Part_Number" "GRM155R71A104MA01D"
 			(at 142.24 81.28 0)
 			(effects
 				(font

@@ -2765,16 +2765,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\nFrequency RF SAW Filter (Surface Acoustic Wave) Bandwidth 5-SMD, No Lead\n"
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 185.42 91.44 0)
 			(effects
@@ -3074,7 +3064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71A104MA01D "
+		(property "Manufacturer_Part_Number" "GRM155R71A104MA01D"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -3323,7 +3313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GCM1555C1H121JA16D "
+		(property "Manufacturer_Part_Number" "GCM1555C1H121JA16D"
 			(at 161.29 88.9 90)
 			(effects
 				(font
@@ -3672,7 +3662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
+		(property "Manufacturer_Part_Number" "RC0402JR-0710KP"
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -4208,7 +4198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71A104MA01D "
+		(property "Manufacturer_Part_Number" "GRM155R71A104MA01D"
 			(at 85.09 80.01 0)
 			(effects
 				(font
@@ -4303,7 +4293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LQW15AN5N6G80D "
+		(property "Manufacturer_Part_Number" "LQW15AN5N6G80D"
 			(at 252.73 91.44 90)
 			(effects
 				(font
@@ -4495,7 +4485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GCM1555C1H121JA16D "
+		(property "Manufacturer_Part_Number" "GCM1555C1H121JA16D"
 			(at 262.89 91.44 90)
 			(effects
 				(font

@@ -3656,7 +3656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
+		(property "Manufacturer_Part_Number" "RC0402JR-0710KP"
 			(at 171.45 55.88 0)
 			(effects
 				(font
@@ -3880,7 +3880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402JR-071ML "
+		(property "Manufacturer_Part_Number" "RC0402JR-071ML"
 			(at 154.94 113.03 90)
 			(effects
 				(font
@@ -5159,7 +5159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DFE252012F-2R2M=P2 "
+		(property "Manufacturer_Part_Number" "DFE252012F-2R2M=P2"
 			(at 205.74 127 90)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LQM21PNR47MC0D "
+		(property "Manufacturer_Part_Number" "LQM21PNR47MC0D"
 			(at 154.94 139.7 90)
 			(effects
 				(font
@@ -7917,7 +7917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
+		(property "Manufacturer_Part_Number" "RC0402JR-0710KP"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -8181,7 +8181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " RC0402JR-0710KP"
+		(property "Manufacturer_Part_Number" "RC0402JR-0710KP"
 			(at 171.45 90.17 0)
 			(effects
 				(font
