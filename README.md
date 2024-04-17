@@ -1,12 +1,17 @@
-# open-running-watch: <br>Open Source GPS Running Watch 🏃⌚
+# *open-running-watch* (Hardware Repository)
+
+An Open Source GPS Running Watch. 🏃⌚
 
 > Note: This is the hardware repository. The firmware repository isn't available yet.
+
+![](images/open-running-watch-front-edited.png)
+![](images/open-running-watch-back-edited.png)
 
 ## Motivation
 
 Running is my hobby, and ask anyone who has taken their running hobby seriously and they'll tell you having a GPS running watch is a must. Throughout my time using one, I sometimes encounter issues and thought to myself, "Why does it happen?", "I wish I had access to the raw data", "Why is the latest model way more expensive for just an additional sensor or software feature?", "I wish I could tune my watch to the way I wanted it, for longer battery life or better user experience", etc.
 
-My wishes can only be fulfilled if there is a GPS running watch out there that is open sourced. Free for everyone to add their own software features, experiment with different algorithms, different chips, and produce their own customized hardware version, designed exactly to what they want.
+My wishes can only be fulfilled if there is a GPS running watch out there that is open sourced. Free for everyone to add their own software features, experiment with different algorithms, different chips, and produce their own customized hardware version, designed to exactly what they want.
 
 I know what you're thinking. Who in the world would want that? Firstly, they have to be a runner, secondly, they have to be either a hardware geek and / or a software geek. Well, I am both! So I want it! And that's a good enough reason for me to build this 😁
 
@@ -51,7 +56,7 @@ PREPREG
 
 ## Fabrication Files
 
-You can grab the released fabrication files in the [Release](https://github.com/fuad1502/open-running-watch-hw/releases) tab. It contains:
+You can download the released fabrication files tarball in the [Release](https://github.com/fuad1502/open-running-watch-hw/releases) tab. It contains:
 - Schematic PDF.
 - Top, bottom, and power plane PCB drawing.
 - Gerbers.
