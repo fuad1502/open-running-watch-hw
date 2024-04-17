@@ -1,17 +1,16 @@
-name: CI
+name: Release Fabrication Outputs
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    tags:
+    - 'v'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  FabSch:
-    name: Schematic fabrication files
+  release:
+    name: Release fabrication outputs
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:dev_1.6.6-33cc8dc_k8.0.1_d_sid_b3.5.1
 
@@ -22,26 +21,16 @@ jobs:
       run: |
         make sch_fab
 
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: FabSch_Output
-        path: Fabrication
-
-  FabPCB:
-    name: PCB fabrication files
-    runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad8_auto_full:dev_1.6.6-33cc8dc_k8.0.1_d_sid_b3.5.1
-
-    steps:
-    - uses: actions/checkout@v2
-
     - name: Run PCB stuff
       run: |
         make pcb_fab
 
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
+    - name: Creat tarball
+      run: tar -czvf fabrication-outputs.tar.gz Fabrication
+
+    - name: Release
+      uses: softprops/action-gh-release@v1
       with:
-        name: FabPCB_Output
-        path: Fabrication
+        files: fabrication-outputs.tar.gz
+      env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
