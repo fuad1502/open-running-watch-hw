@@ -41,4 +41,5 @@
   (lib (name "EVQ-P7J01P")(type "KiCad")(uri "${KIPRJMOD}/models/EVQ-P7J01P/KiCad")(options "")(descr ""))
   (lib (name "12616-06")(type "KiCad")(uri "${KIPRJMOD}/models/12616-06/12616-06.pretty")(options "")(descr ""))
   (lib (name "PCAL9538ABSHP")(type "KiCad")(uri "${KIPRJMOD}/models/PCAL9538ABSHP/KiCad")(options "")(descr ""))
+  (lib (name "pcbway-logo")(type "KiCad")(uri "${KIPRJMOD}/silkscreens/pcbway-logo")(options "")(descr ""))
 )
