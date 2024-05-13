@@ -1348,16 +1348,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 132.08 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a93fe85-e308-4ee5-8de9-dd444ff6f99f")
-	)
-	(wire
-		(pts
 			(xy 171.45 129.54) (xy 186.69 129.54)
 		)
 		(stroke
@@ -1658,6 +1648,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884bfc42-3c14-4bf2-ad5d-817057a91c00")
+	)
+	(wire
+		(pts
 			(xy 135.89 43.18) (xy 135.89 49.53)
 		)
 		(stroke
@@ -1798,16 +1798,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 165.1 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8dc634f-f897-4273-8c4b-7c5276d84d69")
-	)
-	(wire
-		(pts
 			(xy 172.72 95.25) (xy 180.34 95.25)
 		)
 		(stroke
@@ -1915,6 +1905,16 @@
 			(type default)
 		)
 		(uuid "f0fcc515-7b81-4e82-b3cd-5aefe7a7ec14")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 132.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25984ad-ffc6-46e5-b332-84be7a980eba")
 	)
 	(wire
 		(pts
@@ -2164,17 +2164,6 @@
 		)
 		(uuid "3e0584bf-7cbb-4753-bb7f-7671cd572c95")
 	)
-	(label "PD_IR"
-		(at 165.1 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f7ec71c-7f52-4814-b903-f429ba984d9a")
-	)
 	(label "VOUT_IR"
 		(at 170.18 152.4 180)
 		(fields_autoplaced yes)
@@ -2284,6 +2273,17 @@
 			(justify right bottom)
 		)
 		(uuid "8b7f93c3-5cb7-4ffe-8bf8-dea5da4ee66f")
+	)
+	(label "PD_IR"
+		(at 124.46 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c7e69fe-f55f-401c-82b9-1a7f3cffed39")
 	)
 	(label "G1C"
 		(at 121.92 48.26 270)
@@ -2417,17 +2417,6 @@
 		)
 		(uuid "ca518acf-e2f3-45f6-b500-4175d95851ec")
 	)
-	(label "PD_RG"
-		(at 124.46 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc0f1aed-d4c7-48b1-9aad-7123fc0b0835")
-	)
 	(label "RC"
 		(at 165.1 92.71 180)
 		(fields_autoplaced yes)
@@ -2471,6 +2460,17 @@
 			(justify right bottom)
 		)
 		(uuid "ee415669-77de-4754-a7bf-fa2ca4b42e4c")
+	)
+	(label "PD_RG"
+		(at 124.46 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eee1152b-83b9-43e9-a073-c08df0e2e19b")
 	)
 	(hierarchical_label "OUT_IR_EN"
 		(shape input)
@@ -2937,6 +2937,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 132.08 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b8e2bff-0f25-4ab7-93c7-d64df80fa1a1")
+		(property "Reference" "#PWR067"
+			(at 125.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d96fc71-079c-4ef2-9776-faf10981f057")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/3122bafa-a804-4cd8-9115-0832d9838571"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 198.12 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3265,72 +3332,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.08 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19dd37e5-086c-4838-9c90-73e027d80b3f")
-		(property "Reference" "#PWR067"
-			(at 132.08 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7faf3ce3-096d-4194-a684-4e16a49c2053")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/3122bafa-a804-4cd8-9115-0832d9838571"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC847BS")
 		(at 119.38 57.15 0)
 		(unit 1)
@@ -3531,73 +3532,6 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/3122bafa-a804-4cd8-9115-0832d9838571"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fa1127e-f2d4-42b0-8c54-6775217b0e48")
-		(property "Reference" "#PWR068"
-			(at 125.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8d90817-d4a0-4a53-896e-568d9724af19")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/3122bafa-a804-4cd8-9115-0832d9838571"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5843,6 +5777,73 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/3122bafa-a804-4cd8-9115-0832d9838571"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c753bb3c-7c33-4166-908e-bc7653d17779")
+		(property "Reference" "#PWR068"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "737e6c7b-b331-4af0-af4c-b615459a0456")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/3122bafa-a804-4cd8-9115-0832d9838571"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
