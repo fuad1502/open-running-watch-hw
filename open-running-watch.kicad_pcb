@@ -34120,7 +34120,7 @@
 		(path "/3122bafa-a804-4cd8-9115-0832d9838571/b54da61a-7255-49bd-bb10-b7a52e5ecf75/97f50b04-99e0-4793-a1fe-c418604b1eaf")
 		(sheetname "power_monitor6")
 		(sheetfile "power_monitor.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.905 1.015)
 			(end -1.905 1.015)
@@ -44683,7 +44683,7 @@
 		(path "/4380fbdc-0cda-4268-a965-05bbf7832d9b/688beabd-dbb8-437b-8b8b-5bba88332160/97f50b04-99e0-4793-a1fe-c418604b1eaf")
 		(sheetname "power_monitor1")
 		(sheetfile "power_monitor.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.905 1.015)
 			(end -1.905 1.015)
@@ -46588,7 +46588,7 @@
 		(path "/4380fbdc-0cda-4268-a965-05bbf7832d9b/965799a9-2bb8-4661-868f-6c06aa57caea/97f50b04-99e0-4793-a1fe-c418604b1eaf")
 		(sheetname "power_monitor")
 		(sheetfile "power_monitor.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.905 1.015)
 			(end -1.905 1.015)
@@ -49472,7 +49472,7 @@
 		(path "/9b67ad8e-bae2-48a8-aa02-e86e63145742/2ec1712a-d1dc-4aef-9448-cc7ea646d4b6/97f50b04-99e0-4793-a1fe-c418604b1eaf")
 		(sheetname "power_monitor2")
 		(sheetfile "power_monitor.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.905 1.015)
 			(end -1.905 1.015)
@@ -53025,7 +53025,7 @@
 		(path "/72b765b4-9cf7-4339-9de5-5aa831039a5b/4738a2aa-ff8b-4524-b446-d409ca453523/97f50b04-99e0-4793-a1fe-c418604b1eaf")
 		(sheetname "power_monitor7")
 		(sheetfile "power_monitor.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.905 1.015)
 			(end -1.905 1.015)
@@ -53271,7 +53271,7 @@
 		(path "/609feaca-4667-411e-9bba-5969df574cf4/42bc39b1-f6e4-42e1-8bd6-ecddf337cc1d/97f50b04-99e0-4793-a1fe-c418604b1eaf")
 		(sheetname "power_monitor5")
 		(sheetfile "power_monitor.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.905 1.015)
 			(end -1.905 -1.015)
@@ -58227,7 +58227,7 @@
 		(path "/26df2dc3-1e8c-466d-9090-3ef0900edcd5/c11e83b8-517d-4524-8672-6e5d35e82358/97f50b04-99e0-4793-a1fe-c418604b1eaf")
 		(sheetname "power_monitor3")
 		(sheetfile "power_monitor.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.905 -1.015)
 			(end 1.905 -1.015)
