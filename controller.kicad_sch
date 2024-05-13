@@ -4256,10 +4256,6 @@
 		(uuid "121502c5-5e7b-484e-a854-157baee2d107")
 	)
 	(no_connect
-		(at 297.18 87.63)
-		(uuid "1fe3fce5-97df-4e64-9986-defe0b7ef3da")
-	)
-	(no_connect
 		(at 157.48 243.84)
 		(uuid "28103bc9-8641-4b05-ae0e-d363021fa296")
 	)
@@ -4672,6 +4668,16 @@
 			(type default)
 		)
 		(uuid "20a3bf7b-c854-4275-92b9-5baccff70d2d")
+	)
+	(wire
+		(pts
+			(xy 297.18 63.5) (xy 297.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2162a69e-ce8c-4467-953e-05288b87e723")
 	)
 	(wire
 		(pts
@@ -5535,7 +5541,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 49.53) (xy 80.01 49.53)
+			(xy 67.31 49.53) (xy 88.9 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6122,6 +6128,16 @@
 			(type default)
 		)
 		(uuid "d261a921-3aff-44d6-983c-fc5cf1e9f297")
+	)
+	(wire
+		(pts
+			(xy 297.18 76.2) (xy 297.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4289ea6-678e-4fba-b980-9555893d3aa1")
 	)
 	(wire
 		(pts
@@ -6928,7 +6944,7 @@
 		)
 		(uuid "23248ce0-e893-4eb7-a4ad-a7fdb6ec234c")
 	)
-	(label "OTG_FS_DM"
+	(label "OTG_FS_D-"
 		(at 271.78 143.51 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6971,17 +6987,6 @@
 			(justify left bottom)
 		)
 		(uuid "26ab1e79-0b63-4c2c-967d-f3cd84ee79ca")
-	)
-	(label "SPI2_MISO{slash}I2C2_SDA"
-		(at 88.9 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "289c4af7-b1a6-4ddb-91d7-691eca53e78f")
 	)
 	(label "HR_LED_IR"
 		(at 119.38 73.66 180)
@@ -7071,7 +7076,7 @@
 		)
 		(uuid "3920144b-b39f-4cda-a154-1d087fc7de22")
 	)
-	(label "OTG_FS_DM"
+	(label "OTG_FS_D-"
 		(at 287.02 143.51 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7444,17 +7449,6 @@
 			(justify left bottom)
 		)
 		(uuid "670b1d51-18c4-4adb-a792-f594cb825e2b")
-	)
-	(label "SPI2_MOSI"
-		(at 80.01 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6a5d50d3-2c69-4c45-b47c-15d133c8a451")
 	)
 	(label "ACC_IRQ_1"
 		(at 119.38 58.42 180)
@@ -7929,6 +7923,17 @@
 		)
 		(uuid "bd906c35-9163-4135-a83f-065ef2367339")
 	)
+	(label "SPI2_MISO{slash}I2C2_SDA"
+		(at 88.9 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be264802-fe41-4426-bf7e-0750bf935d84")
+	)
 	(label "ACC_IRQ_2"
 		(at 119.38 60.96 180)
 		(fields_autoplaced yes)
@@ -7962,7 +7967,7 @@
 		)
 		(uuid "c4f0a66a-3720-45c6-9f7b-c9c64b603bda")
 	)
-	(label "OTG_FS_DP"
+	(label "OTG_FS_D+"
 		(at 271.78 140.97 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8171,6 +8176,17 @@
 		)
 		(uuid "d9d73671-d58c-49ca-aaee-6c05dc1cf27b")
 	)
+	(label "SPI2_MOSI"
+		(at 88.9 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db62cd1f-d419-4ee9-9472-a31f4646c494")
+	)
 	(label "VDD"
 		(at 234.95 199.39 90)
 		(fields_autoplaced yes)
@@ -8248,7 +8264,7 @@
 		)
 		(uuid "e6db0273-2756-4b3d-a481-f03b609a2565")
 	)
-	(label "OTG_FS_DP"
+	(label "OTG_FS_D+"
 		(at 287.02 146.05 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8357,6 +8373,17 @@
 			(justify right bottom)
 		)
 		(uuid "f82e65b5-7ed5-4e34-8b7a-785f93277c7e")
+	)
+	(label "VDD"
+		(at 297.18 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa498669-0915-4cc8-a627-321ea44f8680")
 	)
 	(label "VDDA"
 		(at 63.5 139.7 180)
@@ -11616,7 +11643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P300X300X100-17N-D"
+		(property "Footprint" "PCAL9538ABSHP:QFN50P300X300X100-17N-D"
 			(at 323.85 172.39 0)
 			(effects
 				(font
@@ -14832,6 +14859,103 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 297.18 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bee37853-3087-4e09-b706-5bb6e6a34033")
+		(property "Reference" "R65"
+			(at 299.72 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 299.72 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 295.402 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 297.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402JR-0710KP"
+			(at 297.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 297.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 297.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f159c48-9127-438b-a93c-7e394d4c052c")
+		)
+		(pin "2"
+			(uuid "d5c187fc-f3ab-4e4d-b69a-ce78eeaaf125")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/4380fbdc-0cda-4268-a965-05bbf7832d9b"
+					(reference "R65")
 					(unit 1)
 				)
 			)
