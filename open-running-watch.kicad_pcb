@@ -10,7 +10,7 @@
 	(title_block
 		(title "Open Running Watch")
 		(date "2024-05-13")
-		(rev "0.1.1")
+		(rev "0.2.1")
 		(company "github.com/fuad1502/open-running-watch-hw")
 	)
 	(layers
@@ -61470,7 +61470,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "v0.1.1"
+	(gr_text "v0.2.1"
 		(locked yes)
 		(at 170 123.6 0)
 		(layer "B.SilkS")
