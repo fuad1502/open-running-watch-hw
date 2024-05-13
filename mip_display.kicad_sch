@@ -1153,7 +1153,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC847"
+		(symbol "Transistor_BJT:BC846"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1168,7 +1168,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC847"
+			(property "Value" "BC846"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1188,7 +1188,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1198,7 +1198,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1207,7 +1207,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Small Signal Transistor"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1225,7 +1225,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC847_0_1"
+			(symbol "BC846_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1286,7 +1286,7 @@
 					)
 				)
 			)
-			(symbol "BC847_1_1"
+			(symbol "BC846_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 5.715)
@@ -2082,7 +2082,7 @@
 		)
 		(uuid a9dd743b-64ce-4348-8106-abf2fe3f8b17)
 	)
-	(text_box "VBE = 0.7 V\nMin. hFE = 200\nVCE sat. = 0.1 V"
+	(text_box "VBE = 0.7 V\nMin. hFE = 200\nVCE sat. = 0.25 V"
 		(exclude_from_sim no)
 		(at 92.71 77.47 0)
 		(size 20.32 7.62)
@@ -3388,92 +3388,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC847")
-		(at 91.44 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44c3b782-1d77-4267-9e8d-c95358c9165b")
-		(property "Reference" "Q4"
-			(at 86.36 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC847"
-			(at 86.36 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 86.36 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 91.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 91.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BC847A-QR"
-			(at 91.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fb5c6b9f-7149-4484-82be-57f9cf08d5ac")
-		)
-		(pin "1"
-			(uuid "af7217c7-9cfd-4020-9150-67b564368093")
-		)
-		(pin "2"
-			(uuid "2e80cb23-6fd0-4528-b68a-9815ecb1f716")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/72b765b4-9cf7-4339-9de5-5aa831039a5b"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 123.19 0)
 		(unit 1)
@@ -4283,6 +4197,91 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/72b765b4-9cf7-4339-9de5-5aa831039a5b"
 					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC846")
+		(at 91.44 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b403707d-1c4f-4768-a189-57e50b7c89b4")
+		(property "Reference" "Q4"
+			(at 86.36 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846"
+			(at 86.36 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 86.36 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BC847BLT1G"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "011df278-026b-4622-a949-368ed96fb198")
+		)
+		(pin "1"
+			(uuid "116ab054-f735-4f2f-929c-14d79af2c284")
+		)
+		(pin "3"
+			(uuid "2c015d65-7949-4731-b9b5-ce04283ad292")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/72b765b4-9cf7-4339-9de5-5aa831039a5b"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
