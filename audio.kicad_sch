@@ -180,260 +180,6 @@
 				)
 			)
 		)
-		(symbol "BC817-25-QVL:BC817-25-QVL"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 13.97 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "BC817-25-QVL"
-				(at 13.97 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P230X110-3N"
-				(at 13.97 -101.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC817-Q_SER.pdf"
-				(at 13.97 -201.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar (BJT) Transistor NPN 45 V 500 mA 100MHz 250 mW Surface Mount TO-236AB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.1"
-				(at 13.97 -401.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "771-BC817-25-QVL"
-				(at 13.97 -501.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BC817-25-QVL?qs=e8oIoAS2J1T%2FKNPQsx1Qyg%3D%3D"
-				(at 13.97 -601.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at 13.97 -701.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BC817-25-QVL"
-				(at 13.97 -801.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "BC817-25-QVL_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 10.16 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 1.27) (xy 10.16 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -3.81) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 3.81) (xy 10.16 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.382 -2.54) (xy 8.89 -2.032) (xy 9.398 -3.048) (xy 8.382 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 8.89 0)
-					(radius 4.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 7.62 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "CMT-7525-80-SMT-TR:CMT-7525-80-SMT-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -742,6 +488,419 @@
 				)
 			)
 		)
+		(symbol "PMN280ENEAX:PMN280ENEAX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PMN280ENEAX"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PMN280ENEAX"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMN280ENEA.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel 100 V 1.2A (Ta) 667mW (Ta), 7.5W (Tc) Surface Mount 6-TSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-PMN280ENEAX"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMN280ENEAX?qs=vLWxofP3U2y1PAZ3d0zetg%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PMN280ENEAX"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PMN280ENEAX_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BC846"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC846"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC846_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC846_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -840,23 +999,53 @@
 		)
 	)
 	(junction
-		(at 154.94 106.68)
+		(at 180.34 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb91f780-3780-445d-a5d0-f51addb31e6e")
+		(uuid "00d09ccb-382a-4099-bab7-c722157de05f")
 	)
 	(junction
-		(at 154.94 83.82)
+		(at 154.94 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "198f6273-974a-4f9e-ab0d-21cfb85e9739")
+	)
+	(junction
+		(at 154.94 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "341803ed-8843-48de-9f32-4223778c013d")
+	)
+	(junction
+		(at 139.7 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a7a98c5-8ec0-4240-862d-ed2a259dc5a9")
+	)
+	(junction
+		(at 154.94 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3270f62-dc9e-4e7d-bb2c-a3f43ec0e2e3")
+	)
+	(junction
+		(at 154.94 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0979742-69ef-4a28-aa9a-b25b3138c45c")
 	)
+	(junction
+		(at 154.94 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea9b7e4b-a611-4624-89ee-e3a18cf1f7dc")
+	)
 	(no_connect
-		(at 187.96 93.98)
+		(at 187.96 86.36)
 		(uuid "7e736a15-c72c-49db-8201-0622866b6778")
 	)
 	(no_connect
-		(at 187.96 96.52)
+		(at 187.96 88.9)
 		(uuid "ed9ccfbd-2542-4e3d-9499-734d5f4eacdc")
 	)
 	(wire
@@ -881,13 +1070,53 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 83.82) (xy 160.02 93.98)
+			(xy 139.7 93.98) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd68061-a058-47a9-bfd5-e4b67fb36774")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 154.94 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2faf98cb-93b2-4767-9760-8dbd0ba263d2")
+	)
+	(wire
+		(pts
+			(xy 180.34 110.49) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35cfce37-5abe-491c-9c77-3944df278cdf")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 160.02 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36c0dc00-a27c-4df8-bfde-48bbafd0e54c")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4431cccd-e10e-4ac5-b45a-133c35e70a63")
 	)
 	(wire
 		(pts
@@ -901,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 160.02 106.68)
+			(xy 160.02 88.9) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -911,17 +1140,27 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 114.3) (xy 137.16 114.3)
+			(xy 154.94 99.06) (xy 154.94 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "835f9695-c7a2-4911-ba1a-ae0d7dab189a")
+		(uuid "67d41521-b9b8-4572-b4b3-ecee8eb27362")
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 160.02 83.82)
+			(xy 180.34 101.6) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996455ef-912c-4b70-a29a-1e65dc8b2ec8")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 160.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -931,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 154.94 83.82)
+			(xy 154.94 71.12) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -941,13 +1180,83 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 106.68) (xy 154.94 106.68)
+			(xy 139.7 101.6) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3fc1b0c-4f8c-4c88-9831-7732e4394058")
+	)
+	(wire
+		(pts
+			(xy 160.02 99.06) (xy 154.94 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bfe12f88-ec95-424f-bd8c-f345a2680044")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 154.94 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1602b70-2a20-4388-8636-ac31056adf71")
+	)
+	(wire
+		(pts
+			(xy 120.65 115.57) (xy 124.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ef165f-3642-43fe-a6c0-a6b64e94ad49")
+	)
+	(wire
+		(pts
+			(xy 180.34 120.65) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c314532c-658e-46db-84f7-fdc3cb78fbd7")
+	)
+	(wire
+		(pts
+			(xy 139.7 110.49) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c602736f-40ce-46ab-b51d-2b8b67c83c08")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.65) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d515e19f-799a-42bd-84ea-5eec5709ac0f")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 180.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53612e7-37e9-4071-aa67-22243d176a9c")
 	)
 	(wire
 		(pts
@@ -958,6 +1267,16 @@
 			(type default)
 		)
 		(uuid "e8fb92fd-6227-4623-af9f-159e3615537f")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5957c8-8137-4df6-86e5-a0a23945fffd")
 	)
 	(text_box "Buzzer current consumption = 100 mA"
 		(exclude_from_sim no)
@@ -978,9 +1297,9 @@
 		)
 		(uuid "2dc36d63-40f1-4145-8e39-7f58449b5212")
 	)
-	(text_box "VBE = 1.2 V\nMin. hFE = 40\nVCE sat. = 0.7 V"
+	(text_box "VBE = 0.7 V\nMin. hFE = 90\nVCE sat. = 0.25 V"
 		(exclude_from_sim no)
-		(at 161.29 119.38 0)
+		(at 114.3 119.38 0)
 		(size 20.32 7.62)
 		(stroke
 			(width 0)
@@ -1030,17 +1349,6 @@
 		)
 		(uuid "db1b9e7a-2077-43eb-8728-6e9ab48f4f62")
 	)
-	(label "IN"
-		(at 133.35 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbccad51-9e6a-4882-a96f-72939449aa55")
-	)
 	(label "VCC"
 		(at 116.84 96.52 180)
 		(fields_autoplaced yes)
@@ -1052,8 +1360,19 @@
 		)
 		(uuid "e3b40789-8c1f-4c37-bf9f-349d2560f109")
 	)
+	(label "IN"
+		(at 120.65 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb4c06c8-a89f-4911-ab2d-362b9770849d")
+	)
 	(label "VCC"
-		(at 154.94 78.74 270)
+		(at 154.94 71.12 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1089,7 +1408,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 121.92 0)
+		(at 154.94 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1098,7 +1417,7 @@
 		(fields_autoplaced yes)
 		(uuid "17b4cd97-38be-4e16-9f60-7a36f87e81cd")
 		(property "Reference" "#PWR0150"
-			(at 154.94 128.27 0)
+			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 127 0)
+			(at 154.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 121.92 0)
+			(at 154.94 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 121.92 0)
+			(at 154.94 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 121.92 0)
+			(at 154.94 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,32 +1474,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 114.3 90)
+		(at 128.27 115.57 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "192dc4df-5c8a-453a-bace-82900b0a5cc6")
-		(property "Reference" "R49"
-			(at 140.97 107.95 90)
+		(uuid "8e7c152d-4aa3-410f-a1b3-b07744ed744e")
+		(property "Reference" "R64"
+			(at 129.5401 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "240"
-			(at 140.97 110.49 90)
+		(property "Value" "10k"
+			(at 127.0001 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 116.078 90)
+			(at 128.27 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 114.3 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +1519,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 114.3 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,8 +1527,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402JR-07240RL"
-			(at 140.97 114.3 90)
+		(property "Manufacturer_Part_Number" "RC0402JR-0710KP"
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1537,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 140.97 114.3 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1546,89 @@
 			)
 		)
 		(property "MPN" ""
-			(at 140.97 114.3 0)
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79adc23b-a111-41b5-829e-c806574c26a9")
+		)
+		(pin "2"
+			(uuid "a2cb96a4-93f8-4a67-a600-1819adab825c")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/609feaca-4667-411e-9bba-5969df574cf4"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC846")
+		(at 137.16 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90e8625e-dff6-4706-8b1c-fa6b37028e74")
+		(property "Reference" "Q5"
+			(at 142.24 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846"
+			(at 142.24 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 142.24 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BC847BLT1G"
+			(at 137.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,10 +1637,110 @@
 			)
 		)
 		(pin "2"
-			(uuid "87fb5798-3460-43b7-8b7a-52ef8f26a37e")
+			(uuid "3f454846-aceb-4188-befc-d7003d7cbdd8")
 		)
 		(pin "1"
-			(uuid "64fa69b5-f31d-4e87-8c20-8be639efbb88")
+			(uuid "3ce7f35e-22c7-4056-9e63-4e306d6fe457")
+		)
+		(pin "3"
+			(uuid "eb33930a-b58e-4038-85fe-6734eae9547b")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/609feaca-4667-411e-9bba-5969df574cf4"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 97.79 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c470d9c-93ec-441d-aab1-a5a8be3278cc")
+		(property "Reference" "R49"
+			(at 142.24 99.0601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 142.24 96.5201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.922 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402JR-0710KP"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31acc35b-4ed6-418b-b327-ab6e4eb39dae")
+		)
+		(pin "2"
+			(uuid "5fe9d68f-40d3-40e0-bbf8-7d9744294601")
 		)
 		(instances
 			(project "open-running-watch"
@@ -1250,7 +1753,7 @@
 	)
 	(symbol
 		(lib_id "BAS16LT3G:BAS16LT3G")
-		(at 154.94 106.68 270)
+		(at 154.94 99.06 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1259,7 +1762,7 @@
 		(dnp no)
 		(uuid "c6fb4284-e0b7-47f0-a616-6035d106a9ce")
 		(property "Reference" "D1"
-			(at 148.59 93.9799 90)
+			(at 148.59 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1771,7 @@
 			)
 		)
 		(property "Value" "BAS16LT3G"
-			(at 148.59 96.5199 90)
+			(at 148.59 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1780,7 @@
 			)
 		)
 		(property "Footprint" "BAS16LT3G:SOT96P237X111-3N"
-			(at 60.02 87.63 0)
+			(at 60.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,7 +1790,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF"
-			(at -39.98 87.63 0)
+			(at -39.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1800,7 @@
 			)
 		)
 		(property "Description" "BAS16LT3G, Small Signal Diode,  Switching 200mA max, 75V 6ns Switching, 3-Pin, SOT-23"
-			(at 154.94 106.68 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1809,7 @@
 			)
 		)
 		(property "Height" "1.11"
-			(at -239.98 87.63 0)
+			(at -239.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1819,7 @@
 			)
 		)
 		(property "Mouser Part Number" "863-BAS16LT3G"
-			(at -339.98 87.63 0)
+			(at -339.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1829,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAS16LT3G?qs=vLkC5FC1VN%252BHps7pSJfTSw%3D%3D"
-			(at -439.98 87.63 0)
+			(at -439.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1839,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at -539.98 87.63 0)
+			(at -539.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1849,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BAS16LT3G"
-			(at -639.98 87.63 0)
+			(at -639.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1859,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 154.94 106.68 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1868,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 154.94 106.68 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,8 +1895,140 @@
 		)
 	)
 	(symbol
+		(lib_id "PMN280ENEAX:PMN280ENEAX")
+		(at 154.94 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d40ce29e-4884-42b7-a322-0d924ef1bf12")
+		(property "Reference" "Q3"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMN280ENEAX"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PMN280ENEAX:PMN280ENEAX"
+			(at 176.53 200.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMN280ENEA.pdf"
+			(at 176.53 300.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 100 V 1.2A (Ta) 667mW (Ta), 7.5W (Tc) Surface Mount 6-TSOP"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 176.53 500.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PMN280ENEAX"
+			(at 176.53 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMN280ENEAX?qs=vLWxofP3U2y1PAZ3d0zetg%3D%3D"
+			(at 176.53 700.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 176.53 800.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PMN280ENEAX"
+			(at 176.53 900.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86834ffe-b670-48e5-9acb-21b716e913df")
+		)
+		(pin "6"
+			(uuid "18b3ccfa-1384-42b9-a4f5-7c864f466195")
+		)
+		(pin "3"
+			(uuid "4813cbbe-3084-4142-b1dd-79c64c829775")
+		)
+		(pin "2"
+			(uuid "4cc28dfa-e41c-486b-b929-0c61e9497777")
+		)
+		(pin "5"
+			(uuid "3ed23c81-2d0c-4f71-aa42-3a3c0f159d35")
+		)
+		(pin "4"
+			(uuid "fe8edbce-8e89-4886-9908-cd1c64ebe984")
+		)
+		(instances
+			(project "open-running-watch"
+				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/609feaca-4667-411e-9bba-5969df574cf4"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CMT-7525-80-SMT-TR:CMT-7525-80-SMT-TR")
-		(at 160.02 93.98 0)
+		(at 160.02 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1402,7 +2037,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9cfd8e7-8b2f-4e1d-9528-16329b144d86")
 		(property "Reference" "LS1"
-			(at 173.99 86.36 0)
+			(at 173.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +2045,7 @@
 			)
 		)
 		(property "Value" "CMT-7525-80-SMT-TR"
-			(at 173.99 88.9 0)
+			(at 173.99 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +2053,7 @@
 			)
 		)
 		(property "Footprint" "CMT-7525-80-SMT-TR:CMT752580SMTTR"
-			(at 184.15 188.9 0)
+			(at 184.15 181.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +2063,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.cuidevices.com/product/resource/cmt-7525-80-smt-tr.pdf"
-			(at 184.15 288.9 0)
+			(at 184.15 281.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +2073,7 @@
 			)
 		)
 		(property "Description" "Piezo Buzzers & Audio Indicators buzzer, 7.5 mm, 2.5 mm deep, M, 3.6 V, 80 dB, Surface Mount (SMT), Audio Transducer"
-			(at 160.02 93.98 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +2082,7 @@
 			)
 		)
 		(property "Height" "2.7"
-			(at 184.15 488.9 0)
+			(at 184.15 481.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +2092,7 @@
 			)
 		)
 		(property "Mouser Part Number" "490-CMT-7525-80SMTTR"
-			(at 184.15 588.9 0)
+			(at 184.15 581.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,7 +2102,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/CMT-7525-80-SMT-TR?qs=P1JMDcb91o5izP7Xira9ww%3D%3D"
-			(at 184.15 688.9 0)
+			(at 184.15 681.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +2112,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "CUI Devices"
-			(at 184.15 788.9 0)
+			(at 184.15 781.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +2122,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CMT-7525-80-SMT-TR"
-			(at 184.15 888.9 0)
+			(at 184.15 881.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +2132,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 160.02 93.98 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +2141,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 160.02 93.98 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,149 +2165,6 @@
 			(project "open-running-watch"
 				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/609feaca-4667-411e-9bba-5969df574cf4"
 					(reference "LS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BC817-25-QVL:BC817-25-QVL")
-		(at 144.78 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7d83eec-59e4-4b7b-9eab-f603d4443f34")
-		(property "Reference" "Q3"
-			(at 158.75 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC817-25-QVL"
-			(at 158.75 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BC817-25-QVL:SOT95P230X110-3N"
-			(at 158.75 215.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC817-Q_SER.pdf"
-			(at 158.75 315.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar (BJT) Transistor NPN 45 V 500 mA 100MHz 250 mW Surface Mount TO-236AB"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 158.75 515.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-BC817-25-QVL"
-			(at 158.75 615.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BC817-25-QVL?qs=e8oIoAS2J1T%2FKNPQsx1Qyg%3D%3D"
-			(at 158.75 715.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 158.75 815.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BC817-25-QVL"
-			(at 158.75 915.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "87fed16f-fb83-4c1d-a969-b299e9ea04b3")
-		)
-		(pin "1"
-			(uuid "92ad46bb-4e1c-4347-82ca-1d967468d8b1")
-		)
-		(pin "3"
-			(uuid "ffc5cf4d-f41e-412f-a20b-3b170e8494d2")
-		)
-		(instances
-			(project "open-running-watch"
-				(path "/3291c566-6d99-47d5-9732-6d96e6cc4ea8/609feaca-4667-411e-9bba-5969df574cf4"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
