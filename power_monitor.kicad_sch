@@ -1388,7 +1388,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "97f50b04-99e0-4793-a1fe-c418604b1eaf")
 		(property "Reference" "TP6"
