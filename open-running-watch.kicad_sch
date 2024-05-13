@@ -7,7 +7,7 @@
 	(title_block
 		(title "Open Running Watch")
 		(date "2024-05-13")
-		(rev "0.2.1")
+		(rev "0.2.2")
 		(company "github.com/fuad1502/open-running-watch-hw")
 	)
 	(lib_symbols)
