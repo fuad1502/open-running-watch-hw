@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Open Running Watch")
-		(date "2024-04-12")
-		(rev "0.1.0")
+		(date "2024-05-13")
+		(rev "0.1.1")
 		(company "github.com/fuad1502/open-running-watch-hw")
 	)
 	(layers
@@ -11398,7 +11398,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R64"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "11930e1d-ac3e-4297-aef0-b6d896c5f162")
@@ -11410,7 +11410,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "beef6504-993f-41de-aa7a-21efe0d1bbd6")
 			(effects
@@ -11601,7 +11601,7 @@
 			(uuid "d0b75a51-9741-4f28-add4-646935de4ef4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ebab066a-efa9-42da-82ca-45ecb1c81eb2")
 			(effects
@@ -27299,7 +27299,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C52"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9c78ee37-fa7c-432f-b46e-35029469280f")
@@ -27311,7 +27311,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "bb1606c5-ae0b-4cbd-8073-b79f6430289c")
 			(effects
@@ -27502,7 +27502,7 @@
 			(uuid "9817d434-2395-47e5-94c0-34a96150238b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f478db04-311b-4880-88af-8be44c7bdd6c")
 			(effects
@@ -30079,7 +30079,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R49"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4d0ae03a-6c5f-44b7-b7d7-ff276c9642d4")
@@ -30091,7 +30091,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "486e7024-97b4-4595-b602-733fdb35220d")
 			(effects
@@ -30282,7 +30282,7 @@
 			(uuid "00f70b07-63e3-4c3a-8429-f61ee8a171e4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a0de49ea-9864-453f-a76b-95e1dfe5c026")
 			(effects
@@ -36429,7 +36429,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R65"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "a322ed8e-ef80-4507-a3a7-2c1c4eb7bff8")
@@ -36442,7 +36442,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "7f4f54ae-37d7-4294-ac3e-f6584e64df29")
 			(effects
@@ -36640,7 +36640,7 @@
 			(uuid "fd71c884-2899-4b74-9f90-578d45181598")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "3d0b0c37-f45c-4929-8ab5-183d5eca3be0")
 			(effects
@@ -39443,7 +39443,7 @@
 		(descr "TSOP6 (SOT457)_2024")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q3"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "f825c872-1a72-4d9c-ac54-f3e08730d4f3")
@@ -39456,7 +39456,7 @@
 			)
 		)
 		(property "Value" "PMN280ENEAX"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "a349afc2-6ea4-4e4c-93ed-80f7a5a1ea34")
@@ -39724,7 +39724,7 @@
 			(uuid "87a0986c-abc3-4166-8cf3-291fd4b321da")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "0e4ea258-578b-4e9f-9e46-7a0940802a6d")
 			(effects
@@ -61470,9 +61470,9 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "v0.1.0"
+	(gr_text "v0.1.1"
 		(locked yes)
-		(at 170 123.6 -0)
+		(at 170 123.6 0)
 		(layer "B.SilkS")
 		(uuid "75f5db13-ea73-47cf-b09f-3b305eca0ced")
 		(effects
