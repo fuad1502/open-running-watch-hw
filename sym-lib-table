@@ -42,4 +42,5 @@
   (lib (name "EVQ-P7J01P")(type "KiCad")(uri "${KIPRJMOD}/models/EVQ-P7J01P/KiCad/EVQ-P7J01P.kicad_sym")(options "")(descr ""))
   (lib (name "12616-06")(type "KiCad")(uri "${KIPRJMOD}/models/12616-06/12616-06.kicad_sym")(options "")(descr ""))
   (lib (name "PCAL9538ABSHP")(type "KiCad")(uri "${KIPRJMOD}/models/PCAL9538ABSHP/KiCad/PCAL9538ABSHP.kicad_sym")(options "")(descr ""))
+  (lib (name "PMN280ENEAX")(type "KiCad")(uri "${KIPRJMOD}/models/PMN280ENEAX/KiCad/PMN280ENEAX.kicad_sym")(options "")(descr ""))
 )

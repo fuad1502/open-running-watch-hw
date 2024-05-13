@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PMN280ENEAX
+D N-Channel 100 V 1.2A (Ta) 667mW (Ta), 7.5W (Tc) Surface Mount 6-TSOP
+K
+F https://assets.nexperia.com/documents/data-sheet/PMN280ENEA.pdf
+$ENDCMP
+#
+#End Doc Library
