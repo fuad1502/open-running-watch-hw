@@ -582,6 +582,21 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/1V8": [
+        "Power"
+      ],
+      "/3V": [
+        "Power"
+      ],
+      "/3V3": [
+        "Power"
+      ],
+      "/5V": [
+        "Power"
+      ],
+      "/VUSB": [
+        "Power"
+      ],
       "/accelerometer/1V8": [
         "Power"
       ],
@@ -591,18 +606,24 @@
       "/audio/VCC_IN": [
         "Power"
       ],
-      "/audio/power_monitor5/IN_N": "Power",
+      "/audio/power_monitor5/IN_N": [
+        "Power"
+      ],
       "/biometric/VCC": [
         "Power"
       ],
       "/biometric/VCC_IN": [
         "Power"
       ],
-      "/biometric/power_monitor6/IN_N": "Power",
+      "/biometric/power_monitor6/IN_N": [
+        "Power"
+      ],
       "/bluenrg/VBAT": [
         "Power"
       ],
-      "/bluenrg/power_monitor3/IN_N": "Power",
+      "/bluenrg/power_monitor3/IN_N": [
+        "Power"
+      ],
       "/controller/OTG_FS_BUS": [
         "Power"
       ],
@@ -612,23 +633,45 @@
       "/controller/VDD": [
         "Power"
       ],
-      "/controller/power_monitor/IN_N": "Power",
-      "/controller/power_monitor1/IN_N": "Power",
+      "/controller/power_monitor/IN_N": [
+        "Power"
+      ],
+      "/controller/power_monitor1/IN_N": [
+        "Power"
+      ],
       "/gps/ANT_IN": [
         "RF"
       ],
       "/gps/VCC": [
         "Power"
       ],
-      "/gps/power_monitor2/IN_N": "Power",
+      "/gps/power_monitor2/IN_N": [
+        "Power"
+      ],
       "/mip_display/DISP_VDD": [
         "Power"
       ],
       "/mip_display/DISP_VDDIO": [
         "Power"
       ],
-      "/mip_display/DISP_VDD_IN": "Power",
-      "/mip_display/power_monitor7/IN_N": "Power",
+      "/mip_display/DISP_VDD_IN": [
+        "Power"
+      ],
+      "/mip_display/power_monitor7/IN_N": [
+        "Power"
+      ],
+      "/power/1V8": [
+        "Power"
+      ],
+      "/power/3V": [
+        "Power"
+      ],
+      "/power/3V3": [
+        "Power"
+      ],
+      "/power/5V": [
+        "Power"
+      ],
       "/power/SRN": [
         "Power"
       ],
@@ -905,7 +948,7 @@
         "uuid": "3291c566-6d99-47d5-9732-6d96e6cc4ea8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR133-134,#PWR147-149,#PWR171-286,J5-19",
     "variants": []
   },
   "sheets": [
@@ -940,6 +983,10 @@
     [
       "4380fbdc-0cda-4268-a965-05bbf7832d9b",
       "controller"
+    ],
+    [
+      "6db1ae14-0f37-464a-aea9-943293ed8517",
+      "connectors"
     ],
     [
       "965799a9-2bb8-4661-868f-6c06aa57caea",
